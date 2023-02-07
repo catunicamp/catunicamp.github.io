@@ -1,7 +1,7 @@
 var cardObject = [
     {
         title: `Asas`,
-        image: `asas.jpeg`,
+        image: `./../img/asas.jpeg`,
         describe: `Asas- Limeira Somos o Asas, uma organização estudantil, sem fins lucrativos, que tem
         como missão encorajar jovens a serem agentes de mudança por meio de métodos de
         educação não tradicionais. O nosso propósito é tornar a cidade de Limeira mais
@@ -29,7 +29,7 @@ var cardObject = [
     },
     {
         title: `Atria Júnior`,
-        image: `atria.png`,
+        image: `./../img/atria.png`,
         describe: `Por que fazer parte da Atria Júnior?<br>
 
         Por que entrar na Atria Júnior ainda no primeiro ano de graduação?
@@ -68,7 +68,7 @@ var cardObject = [
     },
     {
         title: `CVU`,
-        image: `cvu.svg`,
+        image: `./../img/cvu.svg`,
         describe: `"O CVU (Centro de Voluntariado Universitário) é uma associação sem fins lucrativos,
         composta por estudantes da Unicamp. Nosso objetivo é intermediar o ambiente
         universitário e o voluntariado. Fazemos diversas ações, projetos e até consultorias
@@ -93,7 +93,7 @@ var cardObject = [
     },
     {
         title: `Liestag`,
-        image: `liestag.jpeg`,
+        image: `./../img/liestag.jpeg`,
         describe: `Olá, nós somos a Liestag, a sua liga de estágios da Unicamp. Criada para ajudar você a
         se tornar o profissional do futuro, buscamos desenvolver os alunos nos aspectos das
         soft skills. Estamos aqui para transformar a sua experiência na universidade,
@@ -106,7 +106,7 @@ var cardObject = [
     },
     {
         title: `Liga de Data Science`,
-        image: `ligads.jpeg`,
+        image: `./../img/ligads.jpeg`,
         describe: `A Liga de Data Science é um grupo de estudos focado em ciência de dados. Nosso principal objetivo é conhecer e ensinar tópicos importantes relacionados a business intelligence, análise de dados e machine learning, além de desenvolver projetos próprios que envolvem esses temas.<br>
         Os membros da LDS participam do desenvolvimento de projetos seguindo metodologias ágeis ao longo de todo o ano. Além de participarem de momentos em conjunto para estudo, resolução de problemas e desenvolvimento de projetos.<br>
         Nossas atividades seguem um modelo híbrido, sendo que as atividades presenciais são realizadas na FCA. No entanto, somos formados por estudantes tanto da FT quanto da FCA.<br>
@@ -118,7 +118,7 @@ var cardObject = [
     },
     {
         title: `Liga de Marketing`,
-        image: `ligamkt.png`,
+        image: `./../img/ligamkt.png`,
         describe: `Nós somos compostos por alunos que estudam as ferramentas, tendências,
         estratégias, campanhas e os novos mercados e cenários do marketing brasileiro e
         mundial. E para construir uma comunidade no meio universitário mais fidelizada ao
@@ -134,7 +134,7 @@ var cardObject = [
     },
     {
         title: `Mosaico`,
-        image: `mosaico.png`,
+        image: `./../img/mosaico.png`,
         describe: `Nós somos compostos por alunos que estudam as ferramentas, tendências,
         estratégias, campanhas e os novos mercados e cenários do marketing brasileiro e
         mundial. E para construir uma comunidade no meio universitário mais fidelizada ao
@@ -150,7 +150,7 @@ var cardObject = [
     },
     {
         title: `Torque Baja`,
-        image: `torquebaja.jpeg`,
+        image: `./../img/torquebaja.jpeg`,
         describe: `Atualmente a equipe fez algumas adaptações nos trabalhos, por conta do período não
         presencial, para que o projeto continue sempre progredindo! Houve uma grande
         intercambialidade entre as áreas, de modo que as administrativas tiveram um enfoque
@@ -164,7 +164,7 @@ var cardObject = [
     },
     {
         title: `Trote da Cidadania`,
-        image: `trote.jpeg`,
+        image: `./../img/trote.jpeg`,
         describe: `"O Trote da Cidadania Unicamp/Limeira, é uma organização estudantil de cunho
         social, a qual visa aproximar a comunidade de Limeira e a universidade através de
         eventos voluntários. Trabalhamos para despertar a conscientização do potencial
@@ -187,17 +187,32 @@ var cardObject = [
     },
 ]
 
-var card = document.getElementById("cardProgramas");
+var card = document.getElementById("cardOrgs");
 
 // CARDS
 for (var i = 0; i <= cardObject.length; i++) {
     card.innerHTML += 
     `<div class="card mx-auto mt-5 cardStyle" style="width: 18rem; ">
-    <img src=${cardObject[i].image} class="mt-3 card-img-top" alt="..." />
-        <div class="card-body">
-        <h3 class="card-title text-center"> ${cardObject[i].title} </h3>
-        <p class="card-text text-center mt-1"> ${cardObject[i].describe}</p>
-        <button style="width: 100%;" type="button" class="btn btn-dark mx-auto mt-1"> <a href="${cardObject[i].site}" target="_blank" style="text-decoration: none; color: white;"> Abrir site </a>  </button>
+        <div class="column-img-social">
+            <div>
+                <img src=${cardObject[i].image} class="mt-3 card-img-top" alt="..." />
+            </div>
+            <div class="buttons-card"> 
+                <button style="width: auto;" type="button" class="btn-card btn mx-auto mt-1"> <a href="${cardObject[i].site}" target="_blank" style="text-decoration: none; color: white;"> <i class="fa-solid fa-globe"></i> </a></button>
+
+                <button style="width: auto;" type="button" class="btn-card btn mx-auto mt-1"> <a href="${cardObject[i].facebook}" target="_blank" style="text-decoration: none; color: white;"> <i class="fa-brands fa-square-facebook"></i></a></button>
+
+                <button style="width: auto;" type="button" class="btn-card btn mx-auto mt-1"> <a href="${cardObject[i].email}" target="_blank" style="text-decoration: none; color: white;"><i class="fa-solid fa-envelope"></i></a></button>
+
+                <button style="width: auto;" type="button" class="btn-card btn mx-auto mt-1"> <a href="${cardObject[i].instagram}" target="_blank" style="text-decoration: none; color: white;"><i class="fa-brands fa-instagram"></i></a></button>
+            </div>   
         </div>
+        
+        <div class="card-body">
+            <h3 class="card-title text-center"> ${cardObject[i].title} </h3>
+            <p class="card-text text-center"> ${cardObject[i].describe}</p>
+        </div>
+
     </div>
-`};
+    `
+};
