@@ -1,5 +1,81 @@
 let cardObject = [
     {
+        title: `AAAETA`,
+        image: `nft.gif`,
+        describe: `Parabéns!
+        Você foi aprovade na Unicamp e agora somos sua mais nova família. Seja Bem-vinde
+        aos melhores anos da sua vida! Estamos ansioses para te conhecer!
+        <br><br>
+        Quem somos nós:
+        <br><br>
+        "A AAAETA é a Associação Atlética Acadêmica Das Engenharias de Telecomunicações,
+        Transportes e Ambiental da Unicamp.
+        <br><br>
+        Nascemos em 2013 e somos a atlética que representa os estudantes de Engenharia
+        da Faculdade de Tecnologias (FT) em campeonatos, atividades, ações sociais e
+        eventos externos/internos.
+        <br><br>
+        Nosso objetivo é proporcionar desenvolvimento, integração e acolhimento aos
+        alunos, principalmente, através do esporte. Além disso, prestar suporte acadêmico e
+        promover iteração com a comunidade de limeira e os demais campus.
+        Para isso, arrecadamos dinheiro, sobretudo com vendas de produtos e na
+        organização de eventos. Podendo, assim, disponibilizar a vocês, futuros engenheires,
+        treinadores, materiais esportivos, diversão e incentivos para os melhores e mais
+        efetivos treinos!"
+        <br><br>
+        Para saber mais sobre nossa atlética, acesse o nosso MANUAL DOS BIXETAS 2021.
+        `,
+        site: `https://linktr.ee/aaaeta.unicamp`,
+        instagram: `https://www.instagram.com/aaaeta`,
+    },
+    {
+        title: `AAATU`,
+        image: `aaatu.png`,
+        describe: `Vocês estão prontes para a MELHOR FACULDADE DO BRASIL?
+        <br><br>
+        Agora você também faz parte do time de orgulhoses alunes da número 1! Estão prontes para começar a melhor fase de suas vidas? A Associação Atlética Acadêmica de Tecnologia da Unicamp te dá os parabéns por essa conquista!
+        Nós somos uma atlética fundada em 2002 com o objetivo de fomentar o esporte universitário, promover atividades sociais e realizar a integração des alunes. Nós representamos TODES es alunes da Faculdade de Tecnologia e, portanto, possuímos membros de todos os cursos. Então não fiquem acanhades e, qualquer coisa, podem nos perguntar. Vocês já são membros da família AAATU!
+        <br><br>
+        Missão, Visão e Valores da AAATU.
+        <br><br>
+        Missão: Fomentar a integração entre a comunidade e o campus, externa e individualmente, através de entretenimento, esporte e lazer.
+        <br><br>
+        Visão: A nossa visão é simples. Se tornar uma Atlética referência entre as atléticas da UNICAMP na área de gestão e esportes.
+        <br><br>
+        Valores:
+        <br><br>
+        Ética
+        <br><br>
+        Responsabilidade
+        <br><br>
+        Companheirismo
+        <br><br>
+        Evolução
+        <br><br>
+        Socia
+        <br><br>
+        Conheça um pouco mais sobre a nossa atlética, campeonatos, eventos e integrações em nosso CALOURES MANUAL 2021.
+        Bom ano a todes! Que a sorte esteja sempre a seu favor!
+        `,
+        site: `https://beacons.page/atleticaaaatu`,
+        instagram: `https://www.instagram.com/atleticaaatu`,
+    },
+    {
+        title: `AISEC`,
+        image: `aisec.jpeg`,
+        describe: `
+        A AIESEC é a maior organização de liderança jovem do mundo. 
+        <br><br>
+        Acreditamos que por meio de experiências práticas e ambientes desafiadores podemos desenvolver habilidades de liderança nos jovens, além de contribuir para o seu desenvolvimento pessoal e profissional. Nosso propósito é atingir a paz e o preenchimento das potencialidades humanas, com a juventude sendo chave na construção de um futuro melhor.
+        <br><br>
+        Busca desenvolver habilidades profissionais e pessoais, além de ter experiências práticas de liderança e criar um networking global? Seja um Membro Voluntário.
+        <br><br>
+        Selecione Limeira como cidade mais próxima e faça parte da AIESEC em Limeira!
+        `,
+        site: `https://aiesec.org.br/membresia/`,
+        instagram: `https://www.instagram.com/aiesecnobrasil`,
+    },
+    {
         title: `Apis`,
         image: `apis.png`,
         describe: `A Apis AeroDesign tem por finalidade desenvolver habilidades e conhecimentos de engenharia fora da sala de aula por meio do aeromodelismo. Assim, a organização projeta e fabrica aviões do zero para participar da competição nacional da SAE AeroDesign, sendo que os projetos são conduzidos exclusivamente pelos membros.
@@ -9,6 +85,23 @@ let cardObject = [
         A Apis convida vocês a conhecerem mais sobre nosso trabalho.Estamos disponíveis pela dm ! 😉
         `,
         instagram: `https://www.instagram.com/apisaerodesign`,
+    },
+    {
+        title: `ARULI`,
+        image: `nft.gif`,
+        describe: `
+        A ARULI (Associação das Repúblicas da Unicamp Limeira) foi fundada em 2014 com o
+        objetivo de trazer mais calouros para conhecerem e morarem nas repúblicas; sendo
+        assim, um suporte direto e exclusivo das repúblicas. Atuamos em diversos eventos e
+        atividades que integrem os moradores das repúblicas com outras repúblicas. Além
+        disso, atuamos através de projetos sociais de longo prazo e ações pontuais na nossa
+        comunidade de Limeira.
+        <br><br>
+        Então, caso tenha interesse em morar em rep, entre nas nossas redes sociais,
+        Instagram @arulimeiraoficial e Facebook. #moreemrep
+        `,
+        facebook: `https://www.facebook.com/aruli.limeira`,
+        instagram: `https://www.instagram.com/arulimeiraoficial`,
     },
     {
         title: `Asas`,
@@ -85,6 +178,45 @@ let cardObject = [
         instagram: `https://www.instagram.com/cat.limeira/`,
     },
     {
+        title: `CDI`,
+        image: `nft.gif`,
+        describe: `Formada por alunos de diversas turmas dos cursos de TI da Faculdade de Tecnologia.
+        Buscamos construir um canal de comunicação permanente entre alunos e
+        professores, de forma que você possa ter suas demandas ouvidas pela Faculdade.
+        Organizamos uma série de eventos e também temos vínculos com empresas e a
+        comunidade de programadores.`,
+        site: `https://linktr.ee/cdiunicamp`,
+    },
+    {
+        title: `Coletivo Indígena`,
+        image: `nft.gif`,
+        describe: `Coletivo formado por estudantes indígenas da UNICAMP (FT e FCA) com o objetivo de
+        receber, alocar nas repúblicas, ajudar na adaptação dos calouros indígenas e auxiliar
+        nas demandas da vida desses estudantes`,
+        facebook: `https://www.facebook.com/coletivocaind`,
+    },
+    {
+        title: `Conexão Preta`,
+        image: `nft.gif`,
+        describe: `Criado em novembro de 2018 por estudantes da UNICAMP do campus de Limeira - FT
+        e FCA com a necessidade de discutir questões raciais nos diversos âmbistos da
+        sociedade, uma vez que habia ausência de representatividade no espaço universitário.
+        <br><br>
+        Objetivos
+        <br><br>
+        Missão: Construir a luta antirracista, acerca das questões raciais no Brasil voltada para
+        a comunidade negra de Limeira, através da promoção de pensamento crítico e da
+        expansão do debate racial.
+        <br><br>
+        Visão: Aquilombar negros(as) a fim de buscar uma educação descolonial, a construção
+        prática da luta antirracista no ambiente universitário - e fora dele, através do
+        acolhimento Coletivo. Ser uma rede de apoio de referência para a comunidade negra
+        de Limeira (universidade e sociedade civil).
+        <br><br>
+        Valores: Integrar a comunidade negra; Agregar conhecimento; Conectar as pessoas.`,
+        site: `http://linktr.ee/coletivoconexaopreta`,
+    },
+    {
         title: `CVU`,
         image: `cvu.png`,
         describe: `O CVU (Centro de Voluntariado Universitário) é uma associação sem fins lucrativos, de caráter não religioso e não político sediada em Ribeirão Preto-SP, fundada em 2011, composta por estudantes e professores universitários.”
@@ -96,6 +228,44 @@ let cardObject = [
         facebook: `https://www.facebook.com/cvulimeira`,
         email: ``,
         instagram: `https://www.instagram.com/cvulimeira`,
+    },
+    {
+        title: `Ecoedu`,
+        image: `nft.gif`,
+        describe: `O laboratório Ecoedu Ambiental, é um laboratório de Extensão Comunitário que
+        existe desde 2006, fica localizado nas dependências da Universidade Estadual de
+        Campinas (Unicamp), Faculdade de Tecnologia - Campus I, no município de Limeira,
+        interior de São Paulo. Nesse Laboratório funciona o Programa Ecoedu, coordenado
+        pela Profa Lubienska C.L. Jaquiê Ribeiro, que trabalha com pesquisa (iniciação científica,
+        mestrado e doutorado), ensino (formação, palestras, fóruns, entre outros) e extensão
+        (aulas para crianças, jovens e adultos, palestras, treinamentos) sendo constituído de
+        sete Projetos que atende, a cidade de Limeira e região funcionando de forma contínua
+        através da Educação Ambiental atendendo mais de mil pessoas a cada semestre.
+        <br><br>
+        Atualmente o Programa tem os seguintes projetos: VemSer, Plantando Conhecimento,
+        Carpe Diem, Ações, Contação de Histórias, Blue e Trilha da Vida. Os objetivos dos
+        participantes e membros desse Programa são pautados em valores morais, amor,
+        respeito, responsabilidade, diálogo, ética, integridade e transparência.
+        <br><br>
+        O Programa utiliza como ferramenta de trabalho a Educação Ambiental (EA) para
+        valorizar o seu humano no contexto socioambiental promovendo o autoconhecimento,
+        a autoestima e o senso crítico. Tem-se a convicção de que o potencial de
+        transformação individual está na capacidade de cada um descobrir-se sujeito histórico
+        e crítico de sua realidade podendo assim transformar o ambiente onde está inserido,
+        tornando-se um agente transformador para o desenvolvimento sustentável.
+        <br><br>
+        Assim, o Ecoedu busca desenvolver ações para estimular o interesse, a curiosidade, o
+        espírito de investigação e a capacidade de resolver problemas, estimulando a
+        educação social por meio da conquista do senso crítico e do posicionamento, através
+        da abordagem de temas atuais que envolvem quebra de tabus, preconceitos, direitos e
+        deveres. Levando em consideração a interação e a interdependência de todos os
+        aspectos ambientais: físicos, biológicos, econômicos, psicológicos, religiosos, sociais e
+        culturais.
+        <br><br>
+        Venha você também fazer história participando como membro dessa equipe, entre em
+        contato com a gente.`,
+        email: `mailto:ecoedu@ft.unicamp.br`,
+        site: `https://wordpress.ft.unicamp.br/ecoedu`,
     },
     {
         title: `Enactus`,
@@ -171,6 +341,76 @@ let cardObject = [
         facebook: ``,
         email: ``,
         instagram: `https://www.instagram.com/ligademkt`,
+    },
+    {
+        title: `Liga do Mercado Financeiro`,
+        image: `nft.gif`,
+        describe: `"A Liga do Mercado Financeiro da Unicamp surgiu em 2015 no campus de Limeira, na
+        Faculdade de Ciências Aplicadas, através de um grupo de universitários dos cursos de
+        Engenharia de Produção, Engenharia de Manufatura e Administração, que tinham
+        paixão pelo mercado financeiro.
+        <br><br>
+        Vendo a necessidade de expandir essa capacitação para os estudantes da Unicamp e
+        incrementar o aprendizado da graduação, a Liga foi criada como organização
+        estudantil
+        e
+        desde
+        então
+        renova
+        seus
+        membros
+        anualmente,
+        trabalhando
+        conhecimentos, skills, habilidades e valores para disputarem as melhores vagas no
+        mercado de trabalho.
+        <br><br>
+        Se você tem curiosidade sobre o mercado financeiro, quer aprender como usar
+        melhor o seu dinheiro e analisar empresas, seu lugar é com a gente!"
+        Te esperamos no nosso Processo Seletivo!`,
+        site: `https://www.lmfunicamp.com/`,
+        instagram: `https://www.instagram.com/lmfunicamp`,
+    },
+    {
+        title: `Limeteria`,
+        image: `nft.gif`,
+        describe: `A LIMETERIA é a bateria universitária da Unicamp de Limeira, nós representamos
+        todos os cursos da FT e FCA. Nascemos em 2019 com a junção das 4 baterias de
+        Limeira: Lobatucada (Administração e Administração Pública) Bongoteria (Ciência do
+        Esporte e Nutrição) Batucaaaki (Engenharia de Produção e Manufatura) e Invocada
+        (que englobava todos cursos da FT). Nos unimos para fortalecer a identidade da
+        Unicamp Limeira, promovendo integração entre os cursos através da cultura do
+        samba. Em tempos típicos nós ensaiamos nos dois campus da universidade
+        <br><br>
+        A LIMETERIA já participou de desafios como: Interbatuc, Torneio Mestre Tornado e
+        TUSCA, e ainda tocamos em diversas festas realizadas em Limeira. Além de sermos
+        uma organização que faz samba, temos também um foco social e nossos valores tem
+        compromisso com a diversidade e inclusão. Realizamos ao longo dos nossos anos
+        diversas ações sociais, ressaltamos uma em 2020 que mesmo em cenário virtual,
+        realizamos um evento online e l arrecadamos mais de R$1000 reais que todo dinheiro
+        foi revertido em cestas básicas doadas para uma instituição social da região!
+        <br><br>
+        Importante lembrar que para fazer parte da LIMETERIA o único pré requisito é:
+        querer!! Nós não temos processo seletivo e você não precisa saber tocar, vem com a
+        gente, temos certeza que você vai gostar. "
+        <br><br>
+        Nós te convidamos a conhecer a gente mais de perto! Acompanhem nossas redes
+        sociais @limeteria e venha ser um LimeLove`,
+        site: `https://linktr.ee/Limeteria`,
+        instagram: `https://www.instagram.com/limeteria`,
+    },
+    {
+        title: `Marsha pelo Orgulho`,
+        image: `nft.gif`,
+        describe: `O coletivo Marsha Pelo Orgulho é uma organização estudantil, que tem como objetivo
+        incentivar a inclusão e o reconhecimento da comunidade LGBTQIA+ na vida
+        universitária dos alunos da Unicamp de Limeira; apoiar e promover toda ajuda
+        necessária aos membros da comunidade em casos de LGBTQIA+FOBIA; realizar
+        trabalhos e a promoção de assistência à coletividade; propiciar rodas de conversa,
+        integração dos membros e disseminar informações e conteúdos voltados ao público
+        LGBTQIA+.
+        <br><br>
+        Você quer conhecer mais sobre Frente nós? Entre em contato através:`,
+        instagram: `https://www.instagram.com/marshaunicamplimeira/`,
     },
     {
         title: `Mosaico`,
