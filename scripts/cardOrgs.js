@@ -250,85 +250,52 @@ let card = document.getElementById("cardOrgs");
 
 // CARDS
 for (let i = 0; i < cardObject.length; i++) {
+    card.innerHTML += mkOrgCard(cardObject[i]);
+};
 
+function mkOrgCard (orgObj) {
     let cardModel = '';
 
     cardModel += '<div class="card mx-auto mt-5 cardStyle" style="width: 18rem; ">';
-    cardModel += '<div class="column-img-social">';
-    
 
     // weird identation made to match html structure
-    cardModel += `<div> <img src="./img/${cardObject[i].image}" class="mt-3 card-img-top" alt="..." /> </div>`;
+    cardModel += '<div class="column-img-social">';
+        cardModel += `<div> <img src="./img/${orgObj.image}" class="mt-3 card-img-top" alt="..." /> </div>`;
+        
         cardModel += `<div class="buttons-card">`;
-
-            //FIXME colocar um limite de 4 ícones por linha para evitar que saiam do card 
-            if (typeof cardObject[i].site !== 'undefined' && cardObject[i].site !== ''){
-                cardModel += `
-                <a href="${cardObject[i].site}" target="_blank" class="btn-card btn"> 
-                    <i class="fa-solid fa-globe" style="text-decoration: none; color: white;"></i>
-                </a>
-                `;
-            }
-
-            if (typeof cardObject[i].facebook !== 'undefined' && cardObject[i].facebook !== ''){
-                cardModel += `
-                <a href="${cardObject[i].facebook}" target="_blank" class="btn-card btn">
-                    <i class="fa-brands fa-square-facebook" style="text-decoration: none; color: white;"></i>
-                </a>
-                `;
-            }
-
-            if (typeof cardObject[i].email !== 'undefined' && cardObject[i].email !== ''){
-                cardModel += `
-                <a href="${cardObject[i].email}" target="_blank" class="btn-card btn">
-                    <i class="fa-solid fa-envelope" style="text-decoration: none; color: white;"></i>
-                </a>
-                `;
-            }
-
-            if (typeof cardObject[i].instagram !== 'undefined' && cardObject[i].instagram !== ''){
-                cardModel += `
-                <a href="${cardObject[i].instagram}" target="_blank" class="btn-card btn">
-                    <i class="fa-brands fa-instagram" style="text-decoration: none; color: white;"></i>
-                </a>
-                `;
-            }
-
-            if (typeof cardObject[i].linkedin !== 'undefined' && cardObject[i].linkedin !== ''){
-                cardModel += `
-                <a href="${cardObject[i].linkedin}" target="_blank" class="btn-card btn">
-                    <i class="fa-brands fa-linkedin" style="text-decoration: none; color: white;"></i>
-                </a>
-                `;
-            }
             
-            if (typeof cardObject[i].youtube !== 'undefined' && cardObject[i].youtube !== ''){
-                cardModel += `
-                <a href="${cardObject[i].youtube}" target="_blank" class="btn-card btn">
-                    <i class="fa-brands fa-youtube" style="text-decoration: none; color: white;"></i>
-                </a>
-                `;
-            }
-
-            if (typeof cardObject[i].whatsapp !== 'undefined' && cardObject[i].whatsapp !== ''){
-                cardModel += `
-                <a href="${cardObject[i].whatsapp}" target="_blank" class="btn-card btn">
-                    <i class="fa-brands fa-whatsapp" style="text-decoration: none; color: white;"></i>
-                </a>
-                `;
-            }
+            cardModel += mkIcon(orgObj.site, `fa-solid fa-globe`);
+            cardModel += mkIcon(orgObj.facebook, `fa-brands fa-facebook`);
+            cardModel += mkIcon(orgObj.instagram, `fa-brands fa-instagram`);
+            cardModel += mkIcon(orgObj.email, `fa-solid fa-envelope`); //FIXME adicionar prefixo aos links de emai
+            cardModel += mkIcon(orgObj.linkedin, `fa-brands fa-linkedin`);
+            cardModel += mkIcon(orgObj.youtube, `fa-brands fa-youtube`);
+            cardModel += mkIcon(orgObj.whatsapp, `fa-brands fa-whatsapp`);
 
         cardModel += `</div>`;
     cardModel += `</div>`;
 
 
     cardModel += `<div class="card-body">
-                    <h3 class="card-title text-center"> ${cardObject[i].title} </h3>
-                    <p class="card-text text-center"> ${cardObject[i].describe}</p>
+                    <h3 class="card-title text-center"> ${orgObj.title} </h3>
+                    <p class="card-text text-center"> ${orgObj.describe}</p>
                 </div>`;
 
     cardModel += `</div>`;
 
+    return cardModel;
+}
 
-    card.innerHTML += cardModel;
-};
+function mkIcon(link, cssClass) {
+    iconModel = ``;
+
+    if (typeof link !== 'undefined' && link !== ''){
+        iconModel += `
+        <a href="${link}" target="_blank" class="btn-card btn">
+            <i class="${cssClass}" style="text-decoration: none; color: white;"></i>
+        </a>
+        `;
+    }
+
+    return iconModel;
+}
