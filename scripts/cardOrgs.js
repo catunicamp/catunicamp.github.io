@@ -99,7 +99,7 @@ let cardObject = [
     },
     {
         title: `Enactus`,
-        image: `enactus.png`,
+        image: `enactus.jpeg`,
         describe: `A Enactus é uma organização internacional sem fins lucrativos dedicada a inspirar estudantes a mudar o mundo através da Ação Empreendedora.
         <br><br>
         A Enactus Unicamp Limeira tem como missão contribuir para o empoderamento das comunidades de Limeira, fomentando o empreendedorismo social.
@@ -183,7 +183,7 @@ let cardObject = [
     },
     {
         title: `MTE`,
-        image: `nft.gif`,
+        image: `mte.jpeg`,
         describe: ` O Mercado de Trabalho em Engenharia (MTE) é uma organização estudantil que abrange os estudantes das 5 engenharias da Unicamp Limeira. Nossa missão é de aproximar os estudantes de engenharia das diferentes oportunidades do mercado de trabalho, criando conexões com grandes empresas por meio de experiências únicas.
         <br><br>
         Para tanto, contamos com uma equipe apaixonada e capacitada, que proporciona diversos eventos à comunidade universitária, incluindo workshops, desafios, cursos e visitas técnicas. Entre nossos eventos mais renomados estão o 24 Horas, o Simula+ e, é claro, a Semana das Engenharias de Limeira (SEMELIM), os quais possibilitam o contato direto com profissionais de excelência das mais diversas áreas de atuação das engenharias.”
@@ -198,8 +198,7 @@ let cardObject = [
         title: `Refúgio`,
         image: `refugio.jpeg`,
         describe: `A Refúgio Unicamp Limeira é um grupo formado por alunos da Unicamp Limeira (FT e FCA). Somos responsáveis por auxiliar os grupos sócio-acêntrico que se encontram dentro do contexto universitário e que possam passar por situações de machismo, racismo, lgbtqia+fobia, gordofobia, xenofobia ou qualquer outro tipo de preconceito. Além disso, cabe à Refúgio conscientizar a comunidade universitária sobre a Redução de Danos e integrá-la como um modo de prevenção de violências como um todo.`,
-        site: `http://linktr.ee/caunicamplimeira`,
-        email: `refugiounicamplimeira@gmail.com`,
+        email: `mailto:refugiounicamplimeira@gmail.com`,
         instagram: `https://www.instagram.com/refugio.unicamplimeira/`,
     },
     {
@@ -210,7 +209,6 @@ let cardObject = [
         Para que isso seja possível realizamos diversos projetos, capacitações, palestras e parcerias. O nosso curso “ENERGIA: Matrizes e Mercado”, além de contar como horas complementares e recebe a certificação da Escola de Extensão da UNICAMP- EXTECAMP é prestigiado por diversas empresas do setor, como por exemplo: RAÍZEN, CPFL, ERICSSON BRASIL, SOLSTÍCIO, LEPTON ENERGIA e outros gigantes do setor.`,
         site: `https://www.sinergiacte.com.br/home`,
         facebook: `https://www.facebook.com/cte.sinergia`,
-        email: ``,
         instagram: `https://www.instagram.com/sinergiacte/`,
         linkedin: `https://www.linkedin.com/in/sinergia-cte-06a039104/`
     },
@@ -220,7 +218,6 @@ let cardObject = [
         describe: `Atualmente a equipe fez algumas adaptações nos trabalhos, por conta do período não presencial, para que o projeto continue sempre progredindo! Houve uma grande intercambialidade entre as áreas, de modo que as administrativas tiveram um enfoque maior. Apesar da dificuldade da área de projetos por não poder frequentar a oficina, houve uma evolução nos conhecimentos da equipe em questões técnicas como simulações e desenhos em softwares, por exemplo.`,
         site: ``,
         facebook: `https://www.facebook.com/people/Torque-Baja/pfbid037jdUzAS34FaT8bfhQpShQy33Ub6xZQxzjEjAsjBywWyAFV5ae4jYejxjYXWbBctRl/`,
-        email: ``,
         instagram: `https://www.instagram.com/equipetorque`,
     },
     {
