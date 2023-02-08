@@ -1,25 +1,60 @@
-body {
-    font-family: 'Roboto', sans-serif !important;
+:root {
+    --main-bg-color-gradient: linear-gradient(180deg, rgba(3,184,79,1) 29%, rgb(15, 231, 148) 79%);
+    --main-bg-color: rgb(15, 231, 148);
 }
 
-.welcome {
-    background: #03b84f;
+* {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-.welcome-title{
+body{
+    min-height: 100vh;
+}
+
+section {
+    position: relative;
+    width: 100%;
+    height: 40vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+section::before{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 100vh;
+    height: 100vh;
+    background: var(--main-bg-color-gradient) ;
+    border-radius: 50%;
+    transform-origin: bottom;
+    transform: translateX(-50%) scale(6);
+}
+
+section .welcome {
+    position: relative;
+    z-index: 1;
+    max-width: 1000px;
+    text-align: center;
+    color: white;
+} 
+
+section .welcome h1{
     font-weight: 700;
-    font-size: 3rem !important;
+    font-size: 3em !important;
 }
 
-.welcome-sub-title {
-    font-weight: 500;
-    font-size: 1rem !important;
-}
-
-.circle {
-    width: 50px;
-    height: 50px;
-    border-radius: 50px;
+section .welcome h6 {
+    font-size: 1.2rem !important;
+    padding: 0 20%;
+    font-weight: 300;
 }
 
 #cardOrgs h3 {
@@ -35,8 +70,6 @@ body {
     color: rgb(3, 3, 3);
 }
 
-
-
 .cardStyle {
     border-color: white;
     box-shadow: 0 0 5px rgb(214, 213, 213);
@@ -50,6 +83,7 @@ body {
 .card-body {
     width: 80%;
     margin-left: 20px;
+    font-weight: 500;
 }
 
 .column-img-social {
@@ -65,7 +99,8 @@ body {
 }
 
 .btn-card {
-    background-color: #03b84f !important;
+    background: var(--main-bg-color) !important;
+    border: 0;
     margin: 2%;
     flex: 1;
 }
@@ -109,5 +144,13 @@ body {
         display: flex;
         flex-direction: row;
         margin: 10px 10px 10px;
+    }
+
+    section .welcome h1{
+        font-size: 2em !important;
+    }
+
+    section .welcome h6 {
+        padding: 0 5%;
     }
 }
