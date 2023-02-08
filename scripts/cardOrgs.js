@@ -46,7 +46,7 @@ let cardObject = [
         As Empresa Juniores são associações civis sem fins lucrativos e com fins educacionais formada exclusivamente por alunos do ensino superior, regulamentada no Brasil através da Lei 13.267/2016, com o propósito de realizar projetos e serviços que contribuam para o desenvolvimento acadêmico e profissional dos associados, capacitados para o mercado de trabalho. As empresas juniores fazem parte do Movimento Empresa Júnior (MEJ). O MEJ tem como missão formar, por meio da vivência empresarial, empreendedores comprometidos e capazes de transformar o Brasil. Desde 2010, o MEJ já impactou mais de R$70.000.000,00 na economia brasileira, que são integralmente reinvestidos na educação empreendedora dos estudantes.`,
         site: `atriajr.com.br`,
         facebook: `https://www.facebook.com/jr.Atria`,
-        wpp: `wa.me/+5511947247767`,
+        whatsapp: `https://wa.me/+5511947247767`,
         instagram: `https://www.instagram.com/atriajr`,
     },
     {
@@ -231,6 +231,7 @@ let cardObject = [
         instagram: ``,
     },
     {
+        
         title: `AAAAAAA`,
         image: `nft.gif`,
         describe: `Muda aí pfv`,
@@ -240,56 +241,86 @@ let cardObject = [
         instagram: `a`,
         youtube: `a`,
         linkedin: `a`,
+        whatsapp: `a`,
     },
 ]
 
-var card = document.getElementById("cardOrgs");
 
+let card = document.getElementById("cardOrgs");
 
 // CARDS
-for (var i = 0; i < cardObject.length; i++) {
+for (let i = 0; i < cardObject.length; i++) {
 
-    var cardModel = '';
+    let cardModel = '';
 
     cardModel += '<div class="card mx-auto mt-5 cardStyle" style="width: 18rem; ">';
     cardModel += '<div class="column-img-social">';
-    cardModel += `<div> <img src="./img/${cardObject[i].image}" xmlns="http://www.w3.org/2000/svg" class="mt-3 card-img-top" alt="..." /> </div>`;
-    cardModel += `<div class="buttons-card">`;
-   
-    //TODO adicionar suporte p/ wpp, linkedin e youtube
-    if (typeof cardObject[i].site !== 'undefined' && cardObject[i].site !== ''){
-        cardModel += `
-        <a href="${cardObject[i].site}" target="_blank" class="btn-card btn"> 
-            <i class="fa-solid fa-globe" style="text-decoration: none; color: white;"></i>
-        </a>
-        `;
-    }
+    
 
-    if (typeof cardObject[i].facebook !== 'undefined' && cardObject[i].facebook !== ''){
-        cardModel += `
-        <a href="${cardObject[i].facebook}" target="_blank" class="btn-card btn">
-            <i class="fa-brands fa-square-facebook" style="text-decoration: none; color: white;"></i>
-        </a>
-        `;
-    }
+    // weird identation made to match html structure
+    cardModel += `<div> <img src="./img/${cardObject[i].image}" class="mt-3 card-img-top" alt="..." /> </div>`;
+        cardModel += `<div class="buttons-card">`;
 
-    if (typeof cardObject[i].email !== 'undefined' && cardObject[i].email !== ''){
-        cardModel += `
-        <a href="${cardObject[i].email}" target="_blank" class="btn-card btn">
-            <i class="fa-solid fa-envelope" style="text-decoration: none; color: white;"></i>
-        </a>
-        `;
-    }
+            //FIXME colocar um limite de 4 ícones por linha para evitar que saiam do card 
+            if (typeof cardObject[i].site !== 'undefined' && cardObject[i].site !== ''){
+                cardModel += `
+                <a href="${cardObject[i].site}" target="_blank" class="btn-card btn"> 
+                    <i class="fa-solid fa-globe" style="text-decoration: none; color: white;"></i>
+                </a>
+                `;
+            }
 
-    if (typeof cardObject[i].instagram !== 'undefined' && cardObject[i].instagram !== ''){
-        cardModel += `
-        <a href="${cardObject[i].instagram}" target="_blank" class="btn-card btn">
-            <i class="fa-brands fa-instagram" style="text-decoration: none; color: white;"></i>
-        </a>
-        `;
-    }
+            if (typeof cardObject[i].facebook !== 'undefined' && cardObject[i].facebook !== ''){
+                cardModel += `
+                <a href="${cardObject[i].facebook}" target="_blank" class="btn-card btn">
+                    <i class="fa-brands fa-square-facebook" style="text-decoration: none; color: white;"></i>
+                </a>
+                `;
+            }
 
-    cardModel += `</div></div>`;
+            if (typeof cardObject[i].email !== 'undefined' && cardObject[i].email !== ''){
+                cardModel += `
+                <a href="${cardObject[i].email}" target="_blank" class="btn-card btn">
+                    <i class="fa-solid fa-envelope" style="text-decoration: none; color: white;"></i>
+                </a>
+                `;
+            }
+
+            if (typeof cardObject[i].instagram !== 'undefined' && cardObject[i].instagram !== ''){
+                cardModel += `
+                <a href="${cardObject[i].instagram}" target="_blank" class="btn-card btn">
+                    <i class="fa-brands fa-instagram" style="text-decoration: none; color: white;"></i>
+                </a>
+                `;
+            }
+
+            if (typeof cardObject[i].linkedin !== 'undefined' && cardObject[i].linkedin !== ''){
+                cardModel += `
+                <a href="${cardObject[i].linkedin}" target="_blank" class="btn-card btn">
+                    <i class="fa-brands fa-linkedin" style="text-decoration: none; color: white;"></i>
+                </a>
+                `;
+            }
+            
+            if (typeof cardObject[i].youtube !== 'undefined' && cardObject[i].youtube !== ''){
+                cardModel += `
+                <a href="${cardObject[i].youtube}" target="_blank" class="btn-card btn">
+                    <i class="fa-brands fa-youtube" style="text-decoration: none; color: white;"></i>
+                </a>
+                `;
+            }
+
+            if (typeof cardObject[i].whatsapp !== 'undefined' && cardObject[i].whatsapp !== ''){
+                cardModel += `
+                <a href="${cardObject[i].whatsapp}" target="_blank" class="btn-card btn">
+                    <i class="fa-brands fa-whatsapp" style="text-decoration: none; color: white;"></i>
+                </a>
+                `;
+            }
+
+        cardModel += `</div>`;
+    cardModel += `</div>`;
+
 
     cardModel += `<div class="card-body">
                     <h3 class="card-title text-center"> ${cardObject[i].title} </h3>
