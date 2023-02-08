@@ -234,10 +234,12 @@ let cardObject = [
         title: `AAAAAAA`,
         image: `nft.gif`,
         describe: `Muda aí pfv`,
-        site: ``,
-        facebook: ``,
-        email: ``,
-        instagram: ``,
+        site: `a`,
+        facebook: `a`,
+        email: `a`,
+        instagram: `a`,
+        youtube: `a`,
+        linkedin: `a`,
     },
 ]
 
@@ -254,22 +256,37 @@ for (var i = 0; i < cardObject.length; i++) {
     cardModel += `<div> <img src="./img/${cardObject[i].image}" xmlns="http://www.w3.org/2000/svg" class="mt-3 card-img-top" alt="..." /> </div>`;
     cardModel += `<div class="buttons-card">`;
    
-    //TODO inverter o botão e o link na hierarquia
     //TODO adicionar suporte p/ wpp, linkedin e youtube
     if (typeof cardObject[i].site !== 'undefined' && cardObject[i].site !== ''){
-        cardModel += `<button type="button" class="btn-card btn"> <a href="${cardObject[i].site}" target="_blank" style="text-decoration: none; color: white;"> <i class="fa-solid fa-globe"></i> </a></button>`;
+        cardModel += `
+        <a href="${cardObject[i].site}" target="_blank" class="btn-card btn"> 
+            <i class="fa-solid fa-globe" style="text-decoration: none; color: white;"></i>
+        </a>
+        `;
     }
 
     if (typeof cardObject[i].facebook !== 'undefined' && cardObject[i].facebook !== ''){
-        cardModel += `<button type="button" class="btn-card btn"> <a href="${cardObject[i].facebook}" target="_blank" style="text-decoration: none; color: white;"> <i class="fa-brands fa-square-facebook"></i></a></button>`;
+        cardModel += `
+        <a href="${cardObject[i].facebook}" target="_blank" class="btn-card btn">
+            <i class="fa-brands fa-square-facebook" style="text-decoration: none; color: white;"></i>
+        </a>
+        `;
     }
 
     if (typeof cardObject[i].email !== 'undefined' && cardObject[i].email !== ''){
-        cardModel += `<button type="button" class="btn-card btn"> <a href="${cardObject[i].email}" target="_blank" style="text-decoration: none; color: white;"><i class="fa-solid fa-envelope"></i></a></button>`;
+        cardModel += `
+        <a href="${cardObject[i].email}" target="_blank" class="btn-card btn">
+            <i class="fa-solid fa-envelope" style="text-decoration: none; color: white;"></i>
+        </a>
+        `;
     }
 
     if (typeof cardObject[i].instagram !== 'undefined' && cardObject[i].instagram !== ''){
-        cardModel += `<button type="button" class="btn-card btn"> <a href="${cardObject[i].instagram}" target="_blank" style="text-decoration: none; color: white;"><i class="fa-brands fa-instagram"></i></a></button>`;
+        cardModel += `
+        <a href="${cardObject[i].instagram}" target="_blank" class="btn-card btn">
+            <i class="fa-brands fa-instagram" style="text-decoration: none; color: white;"></i>
+        </a>
+        `;
     }
 
     cardModel += `</div></div>`;
