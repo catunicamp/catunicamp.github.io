@@ -129,13 +129,18 @@ let cardObject = [
     {
         title: `Liestag`,
         image: `liestag.jpeg`,
-        describe: `Olá, nós somos a Liestag, a sua liga de estágios da Unicamp. Criada para ajudar você a se tornar o profissional do futuro, buscamos desenvolver os alunos nos aspectos das soft skills.
-        <br>
-        Estamos aqui para transformar a sua experiência na universidade, transformar você, no profissional que o mercado tanto procura. Chegue mais, pegue a sua bebida e escolha o seu lugar, temos uma longa jornada pela frente!`,
-        site: `https://liestag.com`,
-        facebook: `https://www.facebook.com/liestag`,
-        email: ``,
+        describe: `Olá, nós somos a Liestag, a sua liga de estágios da Unicamp. 
+        <br><br>
+        Criada para ajudar você a se tornar o profissional do futuro, buscamos desenvolver os alunos nos aspectos das soft skills, que são as habilidades comportamentais(aquilo que a gente não aprende na escola e na faculdade, sabe?) Como oratória, liderança, negociação, além de te ajudar na preparação de processos seletivos, para você chegar prontíssimo para a entrevista. 
+        <br><br>
+        Além disso, trabalhamos para aproximar os alunos das empresas do mercado de trabalho, através de projetos e parcerias, como foi o caso da nossa parceria com o Banco Citi, um dos maiores bancos do mundo, onde ainda tivemos a oportunidade junto com os alunos que participaram do evento de fazer uma visita técnica na sede do banco no Brasil! 
+        <br><br>
+        Estamos aqui para transformar a sua experiência na universidade, transformar você, no profissional que o mercado tanto procura. Chegue mais, pegue a sua bebida e escolha o seu lugar, temos uma longa jornada pela frente!
+        <br><br>
+        Quer conhecer mais a Liestag? Entre em contato pelas nossas redes`,
         instagram: `https://www.instagram.com/liestag`,
+        linkedin: `https://www.linkedin.com/company/liestag/`,
+        discord: `https://discord.gg/etA5384XN3`
     },
     {
         title: `Liga de Data Science`,
@@ -148,8 +153,6 @@ let cardObject = [
         <br><br>
         Gostaria de conhecer melhor nosso time e nossos projetos? Acesse o link do nosso instagram ou do nosso link tree.`,
         site: `https://linktr.ee/ligadsunicamp`,
-        facebook: ``,
-        email: `https://linktr.ee/ligadsunicamp`,
         instagram: `https://www.instagram.com/ligadsunicamp`,
     },
     {
@@ -271,6 +274,7 @@ function mkOrgCard (orgObj) {
             cardModel += mkIcon(orgObj.linkedin, `fa-brands fa-linkedin`);
             cardModel += mkIcon(orgObj.youtube, `fa-brands fa-youtube`);
             cardModel += mkIcon(orgObj.whatsapp, `fa-brands fa-whatsapp`);
+            cardModel += mkIcon(orgObj.discord, `fab fa-discord`);
 
         cardModel += `</div>`;
     cardModel += `</div>`;
