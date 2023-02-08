@@ -2,11 +2,6 @@ body {
     font-family: 'Roboto', sans-serif !important;
 }
 
-svg {
-    transform: rotate(180deg);
-    margin-top: 0;
-}
-
 .welcome {
     background: #03b84f;
 }
@@ -29,24 +24,27 @@ svg {
 
 #cardOrgs h3 {
     margin-bottom: 1.5rem;
-    font-size: 1rem !important;
+    font-size: 1.2rem !important;
     color: #03b84f;
+    font-weight: 700;
 }
 
 #cardOrgs p {
     margin-bottom: 1.5rem;
     font-size: 0.8rem !important;
-    font-weight: 100;
+    color: rgb(3, 3, 3);
 }
 
 .btn-card {
     background-color: #03b84f !important;
+    margin: 2%;
+    flex: 1;
 }
 
 .buttons-card {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-around;
     margin-top: 20px;
 }
 
@@ -62,11 +60,14 @@ svg {
 
 .card-img-top {
     object-fit: contain;
+    margin: 2%;
 }
 
 .card-body {
     width: 80%;
+    margin-left: 20px;
 }
+
 .column-img-social {
     display: flex;
     flex-direction: column;

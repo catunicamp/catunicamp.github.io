@@ -191,28 +191,39 @@ var card = document.getElementById("cardOrgs");
 
 // CARDS
 for (var i = 0; i <= cardObject.length; i++) {
-    card.innerHTML += 
-    `<div class="card mx-auto mt-5 cardStyle" style="width: 18rem; ">
-        <div class="column-img-social">
-            <div>
-                <img src=${cardObject[i].image} class="mt-3 card-img-top" alt="..." />
-            </div>
-            <div class="buttons-card"> 
-                <button style="width: auto;" type="button" class="btn-card btn mx-auto mt-1"> <a href="${cardObject[i].site}" target="_blank" style="text-decoration: none; color: white;"> <i class="fa-solid fa-globe"></i> </a></button>
 
-                <button style="width: auto;" type="button" class="btn-card btn mx-auto mt-1"> <a href="${cardObject[i].facebook}" target="_blank" style="text-decoration: none; color: white;"> <i class="fa-brands fa-square-facebook"></i></a></button>
+    var cardModel = '';
 
-                <button style="width: auto;" type="button" class="btn-card btn mx-auto mt-1"> <a href="${cardObject[i].email}" target="_blank" style="text-decoration: none; color: white;"><i class="fa-solid fa-envelope"></i></a></button>
+    cardModel += '<div class="card mx-auto mt-5 cardStyle" style="width: 18rem; ">';
+    cardModel += '<div class="column-img-social">';
+    cardModel += `<div> <img src=${cardObject[i].image} class="mt-3 card-img-top" alt="..." /> </div>`;
+    cardModel += `<div class="buttons-card">`;
+    
+    if (cardObject[i].site != ''){
+        cardModel += `<button type="button" class="btn-card btn"> <a href="${cardObject[i].site}" target="_blank" style="text-decoration: none; color: white;"> <i class="fa-solid fa-globe"></i> </a></button>`;
+    }
 
-                <button style="width: auto;" type="button" class="btn-card btn mx-auto mt-1"> <a href="${cardObject[i].instagram}" target="_blank" style="text-decoration: none; color: white;"><i class="fa-brands fa-instagram"></i></a></button>
-            </div>   
-        </div>
-        
-        <div class="card-body">
-            <h3 class="card-title text-center"> ${cardObject[i].title} </h3>
-            <p class="card-text text-center"> ${cardObject[i].describe}</p>
-        </div>
+    if (cardObject[i].facebook != ''){
+        cardModel += `<button type="button" class="btn-card btn"> <a href="${cardObject[i].facebook}" target="_blank" style="text-decoration: none; color: white;"> <i class="fa-brands fa-square-facebook"></i></a></button>`;
+    }
 
-    </div>
-    `
+    if (cardObject[i].email != ''){
+        cardModel += `<button type="button" class="btn-card btn"> <a href="${cardObject[i].email}" target="_blank" style="text-decoration: none; color: white;"><i class="fa-solid fa-envelope"></i></a></button>`;
+    }
+
+    if (cardObject[i].instagram != ''){
+        cardModel += `<button type="button" class="btn-card btn"> <a href="${cardObject[i].instagram}" target="_blank" style="text-decoration: none; color: white;"><i class="fa-brands fa-instagram"></i></a></button>`;
+    }
+
+    cardModel += `</div></div>`;
+
+    cardModel += `<div class="card-body">
+                    <h3 class="card-title text-center"> ${cardObject[i].title} </h3>
+                    <p class="card-text text-center"> ${cardObject[i].describe}</p>
+                </div>`;
+
+    cardModel += `</div>`;
+
+
+    card.innerHTML += cardModel;
 };
