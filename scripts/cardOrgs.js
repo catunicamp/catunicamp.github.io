@@ -1,4 +1,4 @@
-let cardObject = [
+let orgsList = [
     {
         title: `AAAETA`,
         image: `nft.gif`,
@@ -31,31 +31,17 @@ let cardObject = [
     {
         title: `AAATU`,
         image: `aaatu.png`,
-        describe: `Vocês estão prontes para a MELHOR FACULDADE DO BRASIL?
+        describe: `Sejam Bem Vindes a família AAATU! 💙🦉❤️
         <br><br>
-        Agora você também faz parte do time de orgulhoses alunes da número 1! Estão prontes para começar a melhor fase de suas vidas? A Associação Atlética Acadêmica de Tecnologia da Unicamp te dá os parabéns por essa conquista!
-        Nós somos uma atlética fundada em 2002 com o objetivo de fomentar o esporte universitário, promover atividades sociais e realizar a integração des alunes. Nós representamos TODES es alunes da Faculdade de Tecnologia e, portanto, possuímos membros de todos os cursos. Então não fiquem acanhades e, qualquer coisa, podem nos perguntar. Vocês já são membros da família AAATU!
+        Agora vocês estão na melhor da América Latina, e não só isso, estão também na maior família da Faculdade de Tecnologia da Unicamp, a família coruja! 
         <br><br>
-        Missão, Visão e Valores da AAATU.
+        Há 20 anos, representamos os cursos: Engenharia de Telecomunicações, Engenharia de Transportes, Engenharia Ambiental, Sistemas de Informação, Saneamento Ambiental e Tecnologia e Análise em Desenvolvimento de Sistemas!
         <br><br>
-        Missão: Fomentar a integração entre a comunidade e o campus, externa e individualmente, através de entretenimento, esporte e lazer.
+        Ufa, deu pra perceber que a família é grande né? 😮‍💨
         <br><br>
-        Visão: A nossa visão é simples. Se tornar uma Atlética referência entre as atléticas da UNICAMP na área de gestão e esportes.
+        Aproveitem e vivam intensamente a melhor fase das suas vidas! Contem com a AAATU para tirar dúvidas e mais informações 
         <br><br>
-        Valores:
-        <br><br>
-        Ética
-        <br><br>
-        Responsabilidade
-        <br><br>
-        Companheirismo
-        <br><br>
-        Evolução
-        <br><br>
-        Socia
-        <br><br>
-        Conheça um pouco mais sobre a nossa atlética, campeonatos, eventos e integrações em nosso CALOURES MANUAL 2021.
-        Bom ano a todes! Que a sorte esteja sempre a seu favor!
+        Instagram: @atleticaaatu
         `,
         site: `https://beacons.page/atleticaaaatu`,
         instagram: `https://www.instagram.com/atleticaaatu`,
@@ -88,20 +74,14 @@ let cardObject = [
     },
     {
         title: `ARULI`,
-        image: `nft.gif`,
+        image: `aruli.jpeg`,
         describe: `
-        A ARULI (Associação das Repúblicas da Unicamp Limeira) foi fundada em 2014 com o
-        objetivo de trazer mais calouros para conhecerem e morarem nas repúblicas; sendo
-        assim, um suporte direto e exclusivo das repúblicas. Atuamos em diversos eventos e
-        atividades que integrem os moradores das repúblicas com outras repúblicas. Além
-        disso, atuamos através de projetos sociais de longo prazo e ações pontuais na nossa
-        comunidade de Limeira.
+        A ARULI (Associação das Repúblicas da Unicamp Limeira) foi fundada em 2015 com o objetivo de trazer mais calouros para conhecerem e morarem nas repúblicas; sendo assim, um suporte direto e exclusivo das repúblicas. Atuamos em diversos eventos e atividades que integrem os moradores das repúblicas com outras repúblicas. Além disso, atuamos através de projetos sociais de longo prazo e ações pontuais na nossa comunidade de Limeira.
         <br><br>
-        Então, caso tenha interesse em morar em rep, entre nas nossas redes sociais,
-        Instagram @arulimeiraoficial e Facebook. #moreemrep
+        Então, caso tenha interesse em morar em rep, entre nas nossas redes sociais, Instagram @arulimeiraoficial e Facebook. #moreemrep
         `,
-        facebook: `https://www.facebook.com/aruli.limeira`,
         instagram: `https://www.instagram.com/arulimeiraoficial`,
+        site: `http://encurtador.com.br/hrB34`,
     },
     {
         title: `Asas`,
@@ -165,27 +145,21 @@ let cardObject = [
     {
         title: `CAT`,
         image: `cat.png`,
-        describe: `O Centro Acadêmico de Tecnologia (CAT) é a entidade que representa todos os
-        estudantes da FT e é responsável pela organização de atividades acadêmicas
-        extracurriculares como debates, discussões, palestras, semanas temáticas, visitas
-        técnicas em empresas privadas e órgãos públicos, recepção de calouros, realização
-        de projetos, mobilização e organização de reivindicações e ações políticas dos
-        estudantes, mediação de negociações e conflitos individuais e coletivos entre
-        estudantes e a faculdade.`,
-        site: ``,
+        describe: `O Centro Acadêmico de Tecnologia (CAT) é uma entidade discente que tem como papel representar todos os estudantes da FT, sendo tambem responsável pela organização de atividades acadêmicas extracurriculares como debates, discussões, palestras, semanas temáticas, visitas técnicas em empresas privadas e órgãos públicos, recepção de calouros, realização de projetos, mobilização e organização de reivindicações e ações políticas dos estudantes, mediação de negociações e conflitos individuais e coletivos entre estudantes e a faculdade. 
+        <br><br>
+        Já dá pra ver o quanto que dá pra fazer né? Então se ficou interessado em movimentar a facul com a gente, não perca as datas do processo seletivo e segue a gente lá no Instagram: @cat.limeira`,
         facebook: `https://www.instagram.com/cat.limeira/`,
-        email: ``,
         instagram: `https://www.instagram.com/cat.limeira/`,
     },
     {
-        title: `CDI`,
-        image: `nft.gif`,
-        describe: `Formada por alunos de diversas turmas dos cursos de TI da Faculdade de Tecnologia.
-        Buscamos construir um canal de comunicação permanente entre alunos e
-        professores, de forma que você possa ter suas demandas ouvidas pela Faculdade.
-        Organizamos uma série de eventos e também temos vínculos com empresas e a
-        comunidade de programadores.`,
-        site: `https://linktr.ee/cdiunicamp`,
+        title: `CDI - Comissão Discente de Informática`,
+        image: `cdi.png`,
+        describe: `Nós somos a organização que representa os cursos de T.I dentro da Faculdade de Tecnologia da Unicamp - T.A.D.S e S.I. Além de ser um canal oficial de comunicação entre os alunos e os docentes, organizamos uma série de eventos como: cursos, palestras e visitas técnicas em parceria com a comunidade e com empresas tech. Dessa forma, trabalhamos para que sua jornada na Universidade seja aproveitada da melhor forma possível! Conte com a CDI durante seu ano letivo para tirar dúvidas e sugerir ideias. 
+        <br><br>
+        Logo mais, abriremos nosso processo seletivo e contamos com a sua presença para engajar e impactar cada vez mais alunos! 💙🐧`,
+        email:`mailto:comissao.informatica.ft@gmail.com`,
+        linkedin: `https://www.linkedin.com/company/cdi-ft-unicamp/mycompany/`,
+        instagram:  `https://www.instagram.com/comissaodeinformatica/`,
     },
     {
         title: `Coletivo Indígena`,
@@ -230,42 +204,21 @@ let cardObject = [
         instagram: `https://www.instagram.com/cvulimeira`,
     },
     {
-        title: `Ecoedu`,
-        image: `nft.gif`,
-        describe: `O laboratório Ecoedu Ambiental, é um laboratório de Extensão Comunitário que
-        existe desde 2006, fica localizado nas dependências da Universidade Estadual de
-        Campinas (Unicamp), Faculdade de Tecnologia - Campus I, no município de Limeira,
-        interior de São Paulo. Nesse Laboratório funciona o Programa Ecoedu, coordenado
-        pela Profa Lubienska C.L. Jaquiê Ribeiro, que trabalha com pesquisa (iniciação científica,
-        mestrado e doutorado), ensino (formação, palestras, fóruns, entre outros) e extensão
-        (aulas para crianças, jovens e adultos, palestras, treinamentos) sendo constituído de
-        sete Projetos que atende, a cidade de Limeira e região funcionando de forma contínua
-        através da Educação Ambiental atendendo mais de mil pessoas a cada semestre.
+        title: `EcoEdu Ambiental`,
+        image: `ecoedu.png`,
+        describe: `A Ecoedu Ambiental é um programa de Extensão Comunitária composto de alunos da FT e FCA, e está aberta a qualquer aluno que queira nos conhecer e fazer parte desse projeto lindo!
         <br><br>
-        Atualmente o Programa tem os seguintes projetos: VemSer, Plantando Conhecimento,
-        Carpe Diem, Ações, Contação de Histórias, Blue e Trilha da Vida. Os objetivos dos
-        participantes e membros desse Programa são pautados em valores morais, amor,
-        respeito, responsabilidade, diálogo, ética, integridade e transparência.
+        No programa, realizamos desde pesquisas científicas até ações pontuais e projetos sociais voltados a diversos públicos.
+        Atualmente temos 7 projetos de educação ambiental. São eles: VemSer, Plantando Conhecimento, Carpe Diem, Ações, Contação de Histórias, Blue e Trilha da Vida. 
         <br><br>
-        O Programa utiliza como ferramenta de trabalho a Educação Ambiental (EA) para
-        valorizar o seu humano no contexto socioambiental promovendo o autoconhecimento,
-        a autoestima e o senso crítico. Tem-se a convicção de que o potencial de
-        transformação individual está na capacidade de cada um descobrir-se sujeito histórico
-        e crítico de sua realidade podendo assim transformar o ambiente onde está inserido,
-        tornando-se um agente transformador para o desenvolvimento sustentável.
+        Utilizamos da Educação Ambiental para valorizar o ser humano no contexto socioambiental, promovendo o autoconhecimento, autoestima e  senso crítico, além de estimular o interesse, curiosidade, e a capacidade de resolver problemas, incentivando a educação social por meio do senso crítico e do posicionamento.
         <br><br>
-        Assim, o Ecoedu busca desenvolver ações para estimular o interesse, a curiosidade, o
-        espírito de investigação e a capacidade de resolver problemas, estimulando a
-        educação social por meio da conquista do senso crítico e do posicionamento, através
-        da abordagem de temas atuais que envolvem quebra de tabus, preconceitos, direitos e
-        deveres. Levando em consideração a interação e a interdependência de todos os
-        aspectos ambientais: físicos, biológicos, econômicos, psicológicos, religiosos, sociais e
-        culturais.
+        Levamos em consideração a interação e a interdependência de todos os aspectos ambientais: físicos, biológicos, econômicos, psicológicos, religiosos, sociais e culturais.
         <br><br>
-        Venha você também fazer história participando como membro dessa equipe, entre em
-        contato com a gente.`,
+        Venha também fazer história participando como membro dessa equipe! Entre em contato com a gente.`,
         email: `mailto:ecoedu@ft.unicamp.br`,
         site: `https://wordpress.ft.unicamp.br/ecoedu`,
+        instagram: `https://www.instagram.com/ecoeduambiental`
     },
     {
         title: `Enactus`,
@@ -295,6 +248,13 @@ let cardObject = [
         Vem transformar o mundo com a gente! 💚`,
         linkedin: `https://www.linkedin.com/company/esf-limeira`,
         instagram: `https://www.instagram.com/esflimeira`,
+    },    
+    {
+        title: `Frente Feminista`,
+        image: `ff.png`,
+        describe: `Fundada em 2013, a Frente Feminista é um coletivo, cuja a missão é lutar pelos direitos das mulheres cis/ trans, pela igualdade de gênero, combater o machismo, e ser uma rede de apoio entre mulheres. Através da disseminação de informações, dialogar sobre como o machismo ocorre no ambiente universitário, evidenciar as opressões que cada mulher sofre, reconhecendo uma luta em comum promovendo a sororidade. Nosso objetivo é integrar, contribuir nos eventos culturais, e tratar de temáticas feministas e da autopercepção de mulheres e seu papel na sociedade.`,
+        site: `https://linktr.ee/frentefeminista_limeira`,
+        instagram: `https://instagram.com/frentefeminista_limeira`,
     },
     {
         title: `Liestag`,
@@ -344,57 +304,25 @@ let cardObject = [
     },
     {
         title: `Liga do Mercado Financeiro`,
-        image: `nft.gif`,
-        describe: `"A Liga do Mercado Financeiro da Unicamp surgiu em 2015 no campus de Limeira, na
-        Faculdade de Ciências Aplicadas, através de um grupo de universitários dos cursos de
-        Engenharia de Produção, Engenharia de Manufatura e Administração, que tinham
-        paixão pelo mercado financeiro.
+        image: `lmf.png`,
+        describe: `A Liga do Mercado Financeiro da Unicamp surgiu em 2015 no campus de Limeira, na Faculdade de Ciências Aplicadas, através de um grupo de universitários dos cursos de Engenharia de Produção, Engenharia de Manufatura e Administração, que tinham paixão pelo mercado financeiro.
         <br><br>
-        Vendo a necessidade de expandir essa capacitação para os estudantes da Unicamp e
-        incrementar o aprendizado da graduação, a Liga foi criada como organização
-        estudantil
-        e
-        desde
-        então
-        renova
-        seus
-        membros
-        anualmente,
-        trabalhando
-        conhecimentos, skills, habilidades e valores para disputarem as melhores vagas no
-        mercado de trabalho.
+        Vendo a necessidade de expandir essa capacitação para os estudantes da Unicamp e incrementar o aprendizado da graduação, a Liga foi criada como organização estudantil e desde então renova seus membros anualmente, trabalhando conhecimentos, skills, habilidades e valores para disputarem as melhores vagas no mercado de trabalho.
         <br><br>
-        Se você tem curiosidade sobre o mercado financeiro, quer aprender como usar
-        melhor o seu dinheiro e analisar empresas, seu lugar é com a gente!"
-        Te esperamos no nosso Processo Seletivo!`,
+        Se você tem curiosidade sobre o mercado financeiro, quer aprender como usar melhor o seu dinheiro e analisar empresas, seu lugar é com a gente! Te esperamos no nosso Processo Seletivo! Nos acompanhem pelo nosso Instagram @lmfunicamp para mais informações!`,
         site: `https://www.lmfunicamp.com/`,
         instagram: `https://www.instagram.com/lmfunicamp`,
     },
     {
         title: `Limeteria`,
-        image: `nft.gif`,
-        describe: `A LIMETERIA é a bateria universitária da Unicamp de Limeira, nós representamos
-        todos os cursos da FT e FCA. Nascemos em 2019 com a junção das 4 baterias de
-        Limeira: Lobatucada (Administração e Administração Pública) Bongoteria (Ciência do
-        Esporte e Nutrição) Batucaaaki (Engenharia de Produção e Manufatura) e Invocada
-        (que englobava todos cursos da FT). Nos unimos para fortalecer a identidade da
-        Unicamp Limeira, promovendo integração entre os cursos através da cultura do
-        samba. Em tempos típicos nós ensaiamos nos dois campus da universidade
+        image: `limeteria.png`,
+        describe: `A LIMETERIA é a bateria universitária da Unicamp de Limeira, nós representamos todos os cursos da FT e FCA, promovendo integração entre os cursos através da cultura do samba.
         <br><br>
-        A LIMETERIA já participou de desafios como: Interbatuc, Torneio Mestre Tornado e
-        TUSCA, e ainda tocamos em diversas festas realizadas em Limeira. Além de sermos
-        uma organização que faz samba, temos também um foco social e nossos valores tem
-        compromisso com a diversidade e inclusão. Realizamos ao longo dos nossos anos
-        diversas ações sociais, ressaltamos uma em 2020 que mesmo em cenário virtual,
-        realizamos um evento online e l arrecadamos mais de R$1000 reais que todo dinheiro
-        foi revertido em cestas básicas doadas para uma instituição social da região!
+        A LIMETERIA já participou de desafios como: Interbatuc, TABU e TUSCA, além de tocarmos em diversas festas realizadas em Limeira. Somos uma organização com viés social, nossos valores tem compromisso com a diversidade e inclusão. Realizamos ao longo dos nossos anos diversas ações sociais na comunidade de Limeira.
         <br><br>
-        Importante lembrar que para fazer parte da LIMETERIA o único pré requisito é:
-        querer!! Nós não temos processo seletivo e você não precisa saber tocar, vem com a
-        gente, temos certeza que você vai gostar. "
+        Importante lembrar que para fazer parte da LIMETERIA o único pré requisito é: querer!! Nós não temos processo seletivo e você não precisa saber tocar, vem com a gente, temos certeza que você vai gostar. 
         <br><br>
-        Nós te convidamos a conhecer a gente mais de perto! Acompanhem nossas redes
-        sociais @limeteria e venha ser um LimeLove`,
+        Acompanhem nossas redes sociais @limeteria e venha ser um LimeLover`,
         site: `https://linktr.ee/Limeteria`,
         instagram: `https://www.instagram.com/limeteria`,
     },
@@ -455,9 +383,11 @@ let cardObject = [
     {
         title: `Torque Baja`,
         image: `torquebaja.jpeg`,
-        describe: `Atualmente a equipe fez algumas adaptações nos trabalhos, por conta do período não presencial, para que o projeto continue sempre progredindo! Houve uma grande intercambialidade entre as áreas, de modo que as administrativas tiveram um enfoque maior. Apesar da dificuldade da área de projetos por não poder frequentar a oficina, houve uma evolução nos conhecimentos da equipe em questões técnicas como simulações e desenhos em softwares, por exemplo.`,
-        site: ``,
-        facebook: `https://www.facebook.com/people/Torque-Baja/pfbid037jdUzAS34FaT8bfhQpShQy33Ub6xZQxzjEjAsjBywWyAFV5ae4jYejxjYXWbBctRl/`,
+        describe: `A Equipe Torque Baja é uma organização sem fins lucrativos que tem como objetivo integrar tanto a área administrativa quanto a área de projetos para o desenvolvimento de um veículo off-road para competições.
+        <br><br>
+        Os alunos que participam da Equipe Torque Baja formam equipes que representarão a FCA e FT no projeto Baja SAE. O projeto Baja SAE é um desafio lançado aos estudantes de diversas áreas de conhecimento que oferece a chance de aplicar na prática os conhecimentos adquiridos em sala de aula, visando incrementar sua preparação para o mercado de trabalho. Ao participar do projeto Baja SAE, o aluno se envolve com um caso real de desenvolvimento de projeto, desde sua a concepção, projeto detalhado e construção. No Brasil o projeto recebe o nome de Projeto Baja SAE BRASIL. Estas equipes são desafiadas semestralmente a participar de competições com o veículo construído por nós. Porém, antes do evento, o objetivo de cada equipe é projetar e construir um protótipo recreativo off- road. Esse projeto e a fabricação do veículo deve ser desenvolvido pelos membros da equipe sem envolvimento direto de engenheiros, educadores, profissionais do ramo off-road ou ligados a esportes a motor.`,
+        email: `mailto:bajafca@unicamp.br`,
+        site: `linktr.ee/equipetorquebaja`,
         instagram: `https://www.instagram.com/equipetorque`,
     },
     {
@@ -471,8 +401,7 @@ let cardObject = [
         instagram: ``,
     },
     {
-        
-        title: `AAAAAAA`,
+        title: `Teste`,
         image: `nft.gif`,
         describe: `Muda aí pfv`,
         site: `a`,
@@ -482,6 +411,7 @@ let cardObject = [
         youtube: `a`,
         linkedin: `a`,
         whatsapp: `a`,
+        disabled: true,
     },
 ]
 
@@ -489,8 +419,10 @@ let cardObject = [
 let card = document.getElementById("cardOrgs");
 
 // CARDS
-for (let i = 0; i < cardObject.length; i++) {
-    card.innerHTML += mkOrgCard(cardObject[i]);
+for (let i = 0; i < orgsList.length; i++) {
+    if (typeof orgsList[i] == 'undefined' || !orgsList[i].disabled){
+        card.innerHTML += mkOrgCard(orgsList[i]);
+    }
 };
 
 function mkOrgCard (orgObj) {
@@ -507,7 +439,7 @@ function mkOrgCard (orgObj) {
             cardModel += mkIcon(orgObj.site, `fa-solid fa-globe`);
             cardModel += mkIcon(orgObj.facebook, `fa-brands fa-facebook`);
             cardModel += mkIcon(orgObj.instagram, `fa-brands fa-instagram`);
-            cardModel += mkIcon(orgObj.email, `fa-solid fa-envelope`); //FIXME adicionar prefixo aos links de emai
+            cardModel += mkIcon(orgObj.email, `fa-solid fa-envelope`);
             cardModel += mkIcon(orgObj.linkedin, `fa-brands fa-linkedin`);
             cardModel += mkIcon(orgObj.youtube, `fa-brands fa-youtube`);
             cardModel += mkIcon(orgObj.whatsapp, `fa-brands fa-whatsapp`);
