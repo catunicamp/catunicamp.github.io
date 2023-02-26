@@ -1,7 +1,7 @@
 let orgsList = [
     {
         title: `AAAETA`,
-        image: `nft.gif`,
+        image: `aaaeta.png`,
         describe: `Parabéns!
         Você foi aprovade na Unicamp e agora somos sua mais nova família. Seja Bem-vinde
         aos melhores anos da sua vida! Estamos ansioses para te conhecer!
@@ -21,9 +21,7 @@ let orgsList = [
         Para isso, arrecadamos dinheiro, sobretudo com vendas de produtos e na
         organização de eventos. Podendo, assim, disponibilizar a vocês, futuros engenheires,
         treinadores, materiais esportivos, diversão e incentivos para os melhores e mais
-        efetivos treinos!"
-        <br><br>
-        Para saber mais sobre nossa atlética, acesse o nosso MANUAL DOS BIXETAS 2021.
+        efetivos treinos!
         `,
         site: `https://linktr.ee/aaaeta.unicamp`,
         instagram: `https://www.instagram.com/aaaeta`,
@@ -163,31 +161,24 @@ let orgsList = [
     },
     {
         title: `Coletivo Indígena`,
-        image: `nft.gif`,
+        image: `colindigena.jpg`,
         describe: `Coletivo formado por estudantes indígenas da UNICAMP (FT e FCA) com o objetivo de
         receber, alocar nas repúblicas, ajudar na adaptação dos calouros indígenas e auxiliar
         nas demandas da vida desses estudantes`,
-        facebook: `https://www.facebook.com/coletivocaind`,
+        instagram: `https://instagram.com/coletivoindigenaunicamplimeira`,
     },
     {
-        title: `Conexão Preta`,
-        image: `nft.gif`,
-        describe: `Criado em novembro de 2018 por estudantes da UNICAMP do campus de Limeira - FT
-        e FCA com a necessidade de discutir questões raciais nos diversos âmbistos da
-        sociedade, uma vez que habia ausência de representatividade no espaço universitário.
+        title: `Coletivo Conexão Preta`,
+        image: `conpreta.jpeg`,
+        describe: `Fundado em 2018 por alunos dos campus FT e FCA, o coletivo tem como propósito conectar pessoas negras dentro do ambiente universitário, que para além de se aquilombar, também formarem uma rede de apoio contra o racismo.
         <br><br>
-        Objetivos
+        A missão do Conexão é construir a luta antirracista acerca de questões raciais, voltada para a comunidade negra, através da promoção de um pensamento crítico e da expansão do debate racial em princípio na universidade. Um dos principais objetivos do conexão é promover diferentes discussões e projetos culturais que atendam as demandas por representatividade dentro da Unicamp,
         <br><br>
-        Missão: Construir a luta antirracista, acerca das questões raciais no Brasil voltada para
-        a comunidade negra de Limeira, através da promoção de pensamento crítico e da
-        expansão do debate racial.
+        O  Conexão Preta é dividido em cinco áreas: Formação, Financeiro, Comunicação e mobilização, Projetos externos, Projetos Internos e Presidência. 
         <br><br>
-        Visão: Aquilombar negros(as) a fim de buscar uma educação descolonial, a construção
-        prática da luta antirracista no ambiente universitário - e fora dele, através do
-        acolhimento Coletivo. Ser uma rede de apoio de referência para a comunidade negra
-        de Limeira (universidade e sociedade civil).
-        <br><br>
-        Valores: Integrar a comunidade negra; Agregar conhecimento; Conectar as pessoas.`,
+        Venha se aquilombar!!`,
+        instagram: `https://www.instagram.com/coletivoconexaopreta/`,
+        youtube: `https://www.youtube.com/@coletivoconexaopreta7472/streams`,
         site: `http://linktr.ee/coletivoconexaopreta`,
     },
     {
@@ -255,6 +246,15 @@ let orgsList = [
         describe: `Fundada em 2013, a Frente Feminista é um coletivo, cuja a missão é lutar pelos direitos das mulheres cis/ trans, pela igualdade de gênero, combater o machismo, e ser uma rede de apoio entre mulheres. Através da disseminação de informações, dialogar sobre como o machismo ocorre no ambiente universitário, evidenciar as opressões que cada mulher sofre, reconhecendo uma luta em comum promovendo a sororidade. Nosso objetivo é integrar, contribuir nos eventos culturais, e tratar de temáticas feministas e da autopercepção de mulheres e seu papel na sociedade.`,
         site: `https://linktr.ee/frentefeminista_limeira`,
         instagram: `https://instagram.com/frentefeminista_limeira`,
+    },   
+    {
+        title: `Integra`,
+        image: `integra.jpeg`,
+        describe: `Integra é uma Empresa júnior, prestadora de serviços de consultoria nas áreas de Engenharia e Administração. É constituída e gerida por alunos de graduação da UNICAMP e atua no mercado desde 2009. Nesse pequeno período já foram realizados mais de 150 projetos de consultoria para clientes com diferentes intuitos, modelos de negócio e perfis.
+        <br><br>
+        Somos comprometidos com nosso trabalho como empresários juniores por acreditarmos que por meio dos nossos projetos podemos impactar a sociedade a nossa volta positivamente. Além disso, estamos todos unidos pelo propósito de crescermos como seres humanos, alunos e futuros profissionais`,
+        site: `https://integraej.com/`,
+        instagram: `https://www.instagram.com/integra.ej/`,
     },
     {
         title: `Liestag`,
@@ -328,7 +328,7 @@ let orgsList = [
     },
     {
         title: `Marsha pelo Orgulho`,
-        image: `nft.gif`,
+        image: `marsha.png`,
         describe: `O coletivo Marsha Pelo Orgulho é uma organização estudantil, que tem como objetivo
         incentivar a inclusão e o reconhecimento da comunidade LGBTQIA+ na vida
         universitária dos alunos da Unicamp de Limeira; apoiar e promover toda ajuda
@@ -337,8 +337,9 @@ let orgsList = [
         integração dos membros e disseminar informações e conteúdos voltados ao público
         LGBTQIA+.
         <br><br>
-        Você quer conhecer mais sobre Frente nós? Entre em contato através:`,
+        Você quer conhecer mais sobre nós? Entre em contato conosco`,
         instagram: `https://www.instagram.com/marshaunicamplimeira/`,
+        email: `mailto:marsha.unicamplimeira@gmail.com`
     },
     {
         title: `Mosaico`,
@@ -363,18 +364,32 @@ let orgsList = [
         instagram: `https://instagram.com/mte_unicamp`,
     },
     {
+        title: `MUUVA`,
+        image: `muuva.png`,
+        describe: `Nós somos o Muuva: Movimento Universitário de União entre Veganos e Agregados
+        <br><br>
+        Criado em 2021 por estudantes do curso de Nutrição e Ciências do Esporte da Unicamp de Limeira, hoje temos integrantes de diversos cursos da FCA e FT. 
+        <br><br>
+        Nosso principal objetivo é tratar pautas sobre o veganismo popular, movimento político que visa a libertação animal, interseccionando com as diversas opressões existentes na sociedade.
+        <br><br>        
+        Através de projetos e ações dentro e fora da universidade conseguimos debater e conversar sobre o veganismo popular em diversas esferas sociopolíticas e científicas, sempre pautados na ciência.`,
+        site: `https://linktr.ee/MUUVA.Unicamp`,
+        instagram: `https://instagram.com/muuvaunicamp`,
+    },
+    {
         title: `Refúgio`,
         image: `refugio.jpeg`,
         describe: `A Refúgio Unicamp Limeira é um grupo formado por alunos da Unicamp Limeira (FT e FCA). Somos responsáveis por auxiliar os grupos sócio-acêntrico que se encontram dentro do contexto universitário e que possam passar por situações de machismo, racismo, lgbtqia+fobia, gordofobia, xenofobia ou qualquer outro tipo de preconceito. Além disso, cabe à Refúgio conscientizar a comunidade universitária sobre a Redução de Danos e integrá-la como um modo de prevenção de violências como um todo.`,
         email: `mailto:refugiounicamplimeira@gmail.com`,
         instagram: `https://www.instagram.com/refugio.unicamplimeira/`,
+        email: `mailto:refugiounicamplimeira@gmail.com`
     },
     {
         title: `Sinergia`,
         image: `sinergia.png`,
         describe: `A área de energia é extremamente abrangente e multidisciplinar, sendo o setor que mais cresce nos últimos anos. Nós do Sinergia-CTE, somos uma organização estudantil sem fins lucrativos da Unicamp que visa aproximar os estudantes do mercado energético, assim como trabalhar com as áreas sociais, educacionais, ambientais e econômicas que estão correlacionadas a energia.
         <br><br>
-        Para que isso seja possível realizamos diversos projetos, capacitações, palestras e parcerias. O nosso curso “ENERGIA: Matrizes e Mercado”, além de contar como horas complementares e recebe a certificação da Escola de Extensão da UNICAMP- EXTECAMP é prestigiado por diversas empresas do setor, como por exemplo: RAÍZEN, CPFL, ERICSSON BRASIL, SOLSTÍCIO, LEPTON ENERGIA e outros gigantes do setor.`,
+        Para que isso seja possível realizamos diversos projetos, capacitações, palestras e parcerias. O nosso curso “ENERGIA: Matrizes e Mercado”, além de contar como horas complementares e recebe a certificação da Escola de Extensão da UNICAMP- EXTECAMP é prestigiado por diversas empresas do setor, como por exemplo: RAÍZEN, CPFL, COMERC, SOLSTÍCIO e outros gigantes do setor.`,
         site: `https://www.sinergiacte.com.br/home`,
         facebook: `https://www.facebook.com/cte.sinergia`,
         instagram: `https://www.instagram.com/sinergiacte/`,
@@ -386,9 +401,10 @@ let orgsList = [
         describe: `A Equipe Torque Baja é uma organização sem fins lucrativos que tem como objetivo integrar tanto a área administrativa quanto a área de projetos para o desenvolvimento de um veículo off-road para competições.
         <br><br>
         Os alunos que participam da Equipe Torque Baja formam equipes que representarão a FCA e FT no projeto Baja SAE. O projeto Baja SAE é um desafio lançado aos estudantes de diversas áreas de conhecimento que oferece a chance de aplicar na prática os conhecimentos adquiridos em sala de aula, visando incrementar sua preparação para o mercado de trabalho. Ao participar do projeto Baja SAE, o aluno se envolve com um caso real de desenvolvimento de projeto, desde sua a concepção, projeto detalhado e construção. No Brasil o projeto recebe o nome de Projeto Baja SAE BRASIL. Estas equipes são desafiadas semestralmente a participar de competições com o veículo construído por nós. Porém, antes do evento, o objetivo de cada equipe é projetar e construir um protótipo recreativo off- road. Esse projeto e a fabricação do veículo deve ser desenvolvido pelos membros da equipe sem envolvimento direto de engenheiros, educadores, profissionais do ramo off-road ou ligados a esportes a motor.`,
+        linkedin: `https://www.linkedin.com/company/torquebaja`,
+        instagram: `https://www.instagram.com/equipetorque/`,
+        facebook: `https://pt-br.facebook.com/fcabaja/`,
         email: `mailto:bajafca@unicamp.br`,
-        site: `linktr.ee/equipetorquebaja`,
-        instagram: `https://www.instagram.com/equipetorque`,
     },
     {
         title: `Trote da Cidadania`,
