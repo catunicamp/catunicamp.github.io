@@ -413,8 +413,7 @@ let orgsList = [
         <br><br>
         Acreditamos que parte da nossa função social é agradecer a população de Limeira pela hospitalidade ao receber anualmente cerca de 800 novos alunos. Temos em nosso cronograma a semana de recepção de calouros, campanhas para doações, principalmente a de sangue que ocorre anualmente em parceria com o Hemocentro/Campinas; visitas a asilos, creches, ONG's e centros de reabilitação, além de um projeto que visa o desenvolvimento do senso crítico de crianças através de oficinas semanais. Porém, mesmo com o novo contexto que estamos vivendo, nossas ações não pararam. Nós adaptamos nossas ações para a forma remota, como a recepção dos bixos, campanhas de doações, etc!."`,
         site: `https://linktr.ee/trotedacidadania`,
-        facebook: ``,
-        instagram: ``,
+        instagram: `https://instagram.com/trotedacidadania`,
     },
     {
         title: `Teste`,
