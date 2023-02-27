@@ -412,7 +412,6 @@ let orgsList = [
         describe: `"O Trote da Cidadania Unicamp/Limeira, é uma organização estudantil de cunho social, a qual visa aproximar a comunidade de Limeira e a universidade através de eventos voluntários. Trabalhamos para despertar a conscientização do potencial transformador de cada um na sociedade e buscamos refletir cada detalhe de nossas vidas dentro de um contexto global, para tornar o mundo em que vivemos um lugar mais humano, agradável e sustentável para nós e para as próximas gerações.
         <br><br>
         Acreditamos que parte da nossa função social é agradecer a população de Limeira pela hospitalidade ao receber anualmente cerca de 800 novos alunos. Temos em nosso cronograma a semana de recepção de calouros, campanhas para doações, principalmente a de sangue que ocorre anualmente em parceria com o Hemocentro/Campinas; visitas a asilos, creches, ONG's e centros de reabilitação, além de um projeto que visa o desenvolvimento do senso crítico de crianças através de oficinas semanais. Porém, mesmo com o novo contexto que estamos vivendo, nossas ações não pararam. Nós adaptamos nossas ações para a forma remota, como a recepção dos bixos, campanhas de doações, etc!."`,
-        site: `https://linktr.ee/trotedacidadania`,
         instagram: `https://instagram.com/trotedacidadania`,
     },
     {
