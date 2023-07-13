@@ -113,6 +113,21 @@ section .welcome h6 {
     flex-wrap: wrap;
 }
 
+.footerSection {
+    flex-direction: column;
+    justify-content: center;
+}
+.FT {
+    color: #FFF;
+    text-decoration: dotted;
+}
+.FT:hover {
+    color: #000;
+}
+.footerText {
+    text-align: center;
+}
+
 @media (max-width: 700px) {
     .cardStyle {
         display: flex !important;
