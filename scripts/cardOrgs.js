@@ -37,12 +37,25 @@ let orgsList = [
         <br><br>
         Ufa, deu pra perceber que a família é grande né? 😮‍💨
         <br><br>
-        Aproveitem e vivam intensamente a melhor fase das suas vidas! Contem com a AAATU para tirar dúvidas e mais informações 
+        Aproveitem e vivam intensamente a melhor fase das suas vidas! Contem com a AAATU para tirar dúvidas e mais informações
         <br><br>
         Instagram: @atleticaaatu
         `,
         site: `https://beacons.page/atleticaaaatu`,
         instagram: `https://www.instagram.com/atleticaaatu`,
+    },
+    {
+        title: `AAAXO`,
+        image: `aaaxo.jpeg`,
+        describe: `A A.A.A.X.O. é uma organização estudantil que representa os alunos dos cursos de Gestão, Administração e Administração Pública no âmbito universitário.
+        <br><br>
+        A Atlética tem como mascote o Lobo Guará, o qual representa nossa raça e paixão em honrar o manto laranja e preto e que demonstra o fato de deixarmos nossa marca, pegada, por onde passamos da melhor maneira possível, seja nos esportes, em nossos eventos, produtos ou projetos sociais.
+        <br><br>
+        Acreditamos nos nossos alunos e fazemos tudo pensando em proporcionar o melhor a eles.
+        <br><br>
+        Somos conhecidos pela nossa união, pelos ótimos times que se destacam nos campeonatos universitários e por nossos eventos.
+        `,
+        instagram: `https://www.instagram.com/aaaxdeoutubro/`,
     },
     {
         title: `AIESEC`,
@@ -130,6 +143,19 @@ let orgsList = [
         O principal objetivo do CA é incentivar o desenvolvimento humano, social, acadêmico e profissional dos membros e alunos, por meio de projetos relacionados a engenharia de transportes, logística e mobilidade. Esse incentivo se materializa em forma de palestras, visitas técnicas, indicações de cursos e fornecimento de outras atividades extracurriculares.`,
         linkedin: `https://www.linkedin.com/company/caartunicamp/`,
         instagram: `https://www.instagram.com/caart.unicamp`,
+        site: `https://linktr.ee/caart.unicamp/`,
+        
+    },
+    {
+        title: `CAAUL`,
+        image: `caaul.jpeg`,
+        describe: `Olá! Somos o CAAUL, Centro Acadêmico de Administradores da Unicamp de Limeira, e nos responsabilizamos por canalizar todas as vozes presentes no curso, sendo a representação mais forte dos discentes.
+        <br><br>
+        O nosso CA tem a missão de ouvir os estudantes, trabalhar em parceria com os professores e funcionários e construir a evolução do curso sempre.
+        <br><br>
+        Procuramos, também, trazer novas experiências através de uma série de eventos, palestras e discussões, otimizando, assim, a vida universitária dos estudantes. Nos siga no insta para saber mais!`,
+        instagram: `https://www.instagram.com/caaulim`,
+        
     },
     {
         title: `Camaleão`,
@@ -149,6 +175,16 @@ let orgsList = [
         facebook: `https://www.instagram.com/cat.limeira/`,
         instagram: `https://www.instagram.com/cat.limeira/`,
     },
+
+    {
+        title: `CAACS - Centro Acadêmico Antônio da Costa Santos`,
+        image: `caacs.jpeg`,
+        describe: `O Centro Acadêmico Antônio da Costa Santos é uma organização sem fins lucrativos, apartidária, e também é o primeiro Centro Acadêmico formado na FCA (em 2013) e nasce com intuito dos alunos que sentiam a necessidade de lutar por melhorias no, até então, curso de Gestão de Políticas Públicas que estava mergulhado em uma matriz curricular quase que exclusivamente voltada para gestão privada.
+        <br><br>
+        Desde a mudança para Administração Pública, o CA continua tendo sua missão de lutar por melhorias contínuas no curso, promover debates, eventos que contribuam para a formação no Campo de Pública para que nosso curso possa se tornar referência na área nacionalmente e mais importante, ser sempre o porta voz de todo e qualquer aluno de Administração Pública, a fim de garantir que nossos estudantes tenham uma boa permanência estudantil dentro de nossa universidade. `,
+        instagram: `https://www.instagram.com/caacs.unicamp/`,
+    },
+
     {
         title: `CDI - Comissão Discente de Informática`,
         image: `cdi.png`,
@@ -224,7 +260,7 @@ let orgsList = [
         instagram: `https://www.instagram.com/enactusunicamplimeira`,
     },
     {
-        title: `Engenheiros sem Fronteiras`,
+        title: `Engenheiros Sem Fronteiras`,
         image: `esf.jpeg`,
         describe: `O Engenheiros Sem Fronteiras - Núcleo Limeira é uma organização estudantil que visa a transformação social de comunidades vulneráveis de Limeira, por meio de projetos utilizando a engenharia. Somos uma instituição de voluntariado que apresenta núcleos em diversos estados do Brasil com o mesmo propósito, o impacto no coletivo.
         <br><br>
@@ -243,7 +279,7 @@ let orgsList = [
     {
         title: `Frente Feminista`,
         image: `ff.png`,
-        describe: `Fundada em 2013, a Frente Feminista é um coletivo, cuja a missão é lutar pelos direitos das mulheres cis/ trans, pela igualdade de gênero, combater o machismo, e ser uma rede de apoio entre mulheres. Através da disseminação de informações, dialogar sobre como o machismo ocorre no ambiente universitário, evidenciar as opressões que cada mulher sofre, reconhecendo uma luta em comum promovendo a sororidade. Nosso objetivo é integrar, contribuir nos eventos culturais, e tratar de temáticas feministas e da autopercepção de mulheres e seu papel na sociedade.`,
+        describe: `Fundada em 2013, a Frente Feminista é um coletivo, cuja a missão é lutar pelos direitos das mulheres cis/trans, pela igualdade de gênero, combater o machismo, e ser uma rede de apoio entre mulheres. Através da disseminação de informações, dialogar sobre como o machismo ocorre no ambiente universitário, evidenciar as opressões que cada mulher sofre, reconhecendo uma luta em comum promovendo a sororidade. Nosso objetivo é integrar, contribuir nos eventos culturais, e tratar de temáticas feministas e da autopercepção de mulheres e seu papel na sociedade.`,
         site: `https://linktr.ee/frentefeminista_limeira`,
         instagram: `https://instagram.com/frentefeminista_limeira`,
     },   
