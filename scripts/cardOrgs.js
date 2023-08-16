@@ -144,7 +144,7 @@ let orgsList = [
         linkedin: `https://www.linkedin.com/company/caartunicamp/`,
         instagram: `https://www.instagram.com/caart.unicamp`,
         site: `https://linktr.ee/caart.unicamp/`,
-        
+
     },
     {
         title: `CAAUL`,
@@ -155,7 +155,7 @@ let orgsList = [
         <br><br>
         Procuramos, também, trazer novas experiências através de uma série de eventos, palestras e discussões, otimizando, assim, a vida universitária dos estudantes. Nos siga no insta para saber mais!`,
         instagram: `https://www.instagram.com/caaulim`,
-        
+
     },
     {
         title: `Camaleão`,
@@ -165,6 +165,25 @@ let orgsList = [
         Se você faz parte do curso de Tecnologia em Saneamento Ambiental e Engenharia Ambiental e deseja construir uma universidade e sociedade mais sustentável, fique ligado(a) em nossas redes sociais e junte-se a nós!`,
         instagram: `https://www.instagram.com/camaleaoft`,
         youtube: `https://www.youtube.com/@comissaoambiental1376/streams`
+    },
+    {
+        title: `CAMAB`,
+        image: `camab.jpeg`,
+        describe: `CAMAB - Centro Acadêmico Maria Cristina Faber Boog
+
+        O Centro Acadêmico Maria Cristina Faber Boog (CAMAB) é uma entidade do movimento estudantil que representa os alunos do curso de nutrição da Faculdade de Ciências Aplicadas (FCA) da UNICAMP, com sede no município de Limeira. 
+        <br><br>
+        O CAMAB tem como finalidade promover, através de debates, conferências, cursos e mídias sociais a discussão de assuntos culturais, sociais, políticos e científicos; 
+        
+        realizar encontros, seminários, projetos, palestras e outros eventos voltados para a área de Nutrição; 
+        
+        fortalecer o desenvolvimento dos futuros profissionais da Nutrição formados pela UNICAMP com ideais éticos e norteados por respeito às particularidades socioeconômicas e culturais; 
+        
+        reconhecer, estimular e representar a luta dos estudantes de Nutrição em defesa de seus direitos legítimos dentro e fora da Universidade, bem como lutar pela democracia em todos os espaços.
+        <br><br>
+        `,
+        instagram: `https://www.instagram.com/camab.nutricao/`,
+        email: `mailto:camab@unicamp.br`
     },
     {
         title: `CAT`,
@@ -191,9 +210,9 @@ let orgsList = [
         describe: `Nós somos a organização que representa os cursos de T.I dentro da Faculdade de Tecnologia da Unicamp - T.A.D.S e S.I. Além de ser um canal oficial de comunicação entre os alunos e os docentes, organizamos uma série de eventos como: cursos, palestras e visitas técnicas em parceria com a comunidade e com empresas tech. Dessa forma, trabalhamos para que sua jornada na Universidade seja aproveitada da melhor forma possível! Conte com a CDI durante seu ano letivo para tirar dúvidas e sugerir ideias. 
         <br><br>
         Logo mais, abriremos nosso processo seletivo e contamos com a sua presença para engajar e impactar cada vez mais alunos! 💙🐧`,
-        email:`mailto:comissao.informatica.ft@gmail.com`,
+        email: `mailto:comissao.informatica.ft@gmail.com`,
         linkedin: `https://www.linkedin.com/company/cdi-ft-unicamp/mycompany/`,
-        instagram:  `https://www.instagram.com/comissaodeinformatica/`,
+        instagram: `https://www.instagram.com/comissaodeinformatica/`,
     },
     {
         title: `Coletivo Indígena`,
@@ -275,14 +294,14 @@ let orgsList = [
         Vem transformar o mundo com a gente! 💚`,
         linkedin: `https://www.linkedin.com/company/esf-limeira`,
         instagram: `https://www.instagram.com/esflimeira`,
-    },    
+    },
     {
         title: `Frente Feminista`,
         image: `ff.png`,
         describe: `Fundada em 2013, a Frente Feminista é um coletivo, cuja a missão é lutar pelos direitos das mulheres cis/trans, pela igualdade de gênero, combater o machismo, e ser uma rede de apoio entre mulheres. Através da disseminação de informações, dialogar sobre como o machismo ocorre no ambiente universitário, evidenciar as opressões que cada mulher sofre, reconhecendo uma luta em comum promovendo a sororidade. Nosso objetivo é integrar, contribuir nos eventos culturais, e tratar de temáticas feministas e da autopercepção de mulheres e seu papel na sociedade.`,
         site: `https://linktr.ee/frentefeminista_limeira`,
         instagram: `https://instagram.com/frentefeminista_limeira`,
-    },   
+    },
     {
         title: `Integra`,
         image: `integra.jpeg`,
@@ -470,32 +489,32 @@ let card = document.getElementById("cardOrgs");
 
 // CARDS
 for (let i = 0; i < orgsList.length; i++) {
-    if (typeof orgsList[i] == 'undefined' || !orgsList[i].disabled){
+    if (typeof orgsList[i] == 'undefined' || !orgsList[i].disabled) {
         card.innerHTML += mkOrgCard(orgsList[i]);
     }
 };
 
-function mkOrgCard (orgObj) {
+function mkOrgCard(orgObj) {
     let cardModel = '';
 
     cardModel += '<div class="card mx-auto mt-5 cardStyle" style="width: 18rem; ">';
 
     // weird identation made to match html structure
     cardModel += '<div class="column-img-social">';
-        cardModel += `<div> <img src="./img/${orgObj.image}" class="mt-3 card-img-top" alt="..." /> </div>`;
-        
-        cardModel += `<div class="buttons-card">`;
-            
-            cardModel += mkIcon(orgObj.site, `fa-solid fa-globe`);
-            cardModel += mkIcon(orgObj.facebook, `fa-brands fa-facebook`);
-            cardModel += mkIcon(orgObj.instagram, `fa-brands fa-instagram`);
-            cardModel += mkIcon(orgObj.email, `fa-solid fa-envelope`);
-            cardModel += mkIcon(orgObj.linkedin, `fa-brands fa-linkedin`);
-            cardModel += mkIcon(orgObj.youtube, `fa-brands fa-youtube`);
-            cardModel += mkIcon(orgObj.whatsapp, `fa-brands fa-whatsapp`);
-            cardModel += mkIcon(orgObj.discord, `fab fa-discord`);
+    cardModel += `<div> <img src="./img/${orgObj.image}" class="mt-3 card-img-top" alt="..." /> </div>`;
 
-        cardModel += `</div>`;
+    cardModel += `<div class="buttons-card">`;
+
+    cardModel += mkIcon(orgObj.site, `fa-solid fa-globe`);
+    cardModel += mkIcon(orgObj.facebook, `fa-brands fa-facebook`);
+    cardModel += mkIcon(orgObj.instagram, `fa-brands fa-instagram`);
+    cardModel += mkIcon(orgObj.email, `fa-solid fa-envelope`);
+    cardModel += mkIcon(orgObj.linkedin, `fa-brands fa-linkedin`);
+    cardModel += mkIcon(orgObj.youtube, `fa-brands fa-youtube`);
+    cardModel += mkIcon(orgObj.whatsapp, `fa-brands fa-whatsapp`);
+    cardModel += mkIcon(orgObj.discord, `fab fa-discord`);
+
+    cardModel += `</div>`;
     cardModel += `</div>`;
 
 
@@ -512,7 +531,7 @@ function mkOrgCard (orgObj) {
 function mkIcon(link, cssClass) {
     iconModel = ``;
 
-    if (typeof link !== 'undefined' && link !== ''){
+    if (typeof link !== 'undefined' && link !== '') {
         iconModel += `
         <a href="${link}" target="_blank" class="btn-card btn">
             <i class="${cssClass}" style="text-decoration: none; color: white;"></i>
