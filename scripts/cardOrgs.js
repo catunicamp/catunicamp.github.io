@@ -1,6 +1,7 @@
 let orgsList = [
     {
         title: `AAAETA`,
+        university: `FT`,
         image: `aaaeta.png`,
         describe: `Parabéns!
         Você foi aprovade na Unicamp e agora somos sua mais nova família. Seja Bem-vinde
@@ -28,6 +29,7 @@ let orgsList = [
     },
     {
         title: `AAATU`,
+        university: `FT`,
         image: `aaatu.png`,
         describe: `Sejam Bem Vindes a família AAATU! 💙🦉❤️
         <br><br>
@@ -46,6 +48,7 @@ let orgsList = [
     },
     {
         title: `AAAXO`,
+        university: `FCA`,
         image: `aaaxo.jpeg`,
         describe: `A A.A.A.X.O. é uma organização estudantil que representa os alunos dos cursos de Gestão, Administração e Administração Pública no âmbito universitário.
         <br><br>
@@ -59,6 +62,7 @@ let orgsList = [
     },
     {
         title: `AIESEC`,
+        university: `FCA`,
         image: `aiesec.jpeg`,
         describe: `
         A AIESEC é a maior organização de liderança jovem do mundo. 
@@ -74,6 +78,7 @@ let orgsList = [
     },
     {
         title: `Apis`,
+        university: `FT`,
         image: `apis.png`,
         describe: `A Apis AeroDesign tem por finalidade desenvolver habilidades e conhecimentos de engenharia fora da sala de aula por meio do aeromodelismo. Assim, a organização projeta e fabrica aviões do zero para participar da competição nacional da SAE AeroDesign, sendo que os projetos são conduzidos exclusivamente pelos membros.
         <br><br>
@@ -85,6 +90,7 @@ let orgsList = [
     },
     {
         title: `ARULI`,
+        university: `FT`,
         image: `aruli.jpeg`,
         describe: `
         A ARULI (Associação das Repúblicas da Unicamp Limeira) foi fundada em 2015 com o objetivo de trazer mais calouros para conhecerem e morarem nas repúblicas; sendo assim, um suporte direto e exclusivo das repúblicas. Atuamos em diversos eventos e atividades que integrem os moradores das repúblicas com outras repúblicas. Além disso, atuamos através de projetos sociais de longo prazo e ações pontuais na nossa comunidade de Limeira.
@@ -92,10 +98,11 @@ let orgsList = [
         Então, caso tenha interesse em morar em rep, entre nas nossas redes sociais, Instagram @arulimeiraoficial e Facebook. #moreemrep
         `,
         instagram: `https://www.instagram.com/arulimeiraoficial`,
-        site: `http://encurtador.com.br/hrB34`,
+        site: `http://encurtador.com.br/hrB34`, /* link errado */
     },
     {
         title: `Asas`,
+        university: `FCA`,
         image: `asas.jpeg`,
         describe: `O Asas é uma organização estudantil sem fins lucrativos, que tem como missão encorajar jovens a serem agentes de mudança por meio de métodos de educação não tradicionais. Com isso, busca atingir o propósito de tornar a cidade de Limeira mais consciente, esperançosa e atuante em sua própria realidade. 
         <br><br>
@@ -114,6 +121,7 @@ let orgsList = [
     },
     {
         title: `Atria Júnior`,
+        university: `FT`,
         image: `atria.png`,
         describe: `Por que fazer parte da Atria Júnior?
         <br><br>
@@ -135,6 +143,7 @@ let orgsList = [
     },
     {
         title: `CAART`,
+        university: `FT`,
         image: `caart.png`,
         describe: `A CA²RT é o Centro Acadêmico André Rebouças de Transportes, uma organização estudantil que busca representar os alunos do curso de Engenharia de Transportes e ser um canal de comunicação entre os discentes, a coordenação do curso e a diretoria da FT.
         <br><br>
@@ -144,10 +153,11 @@ let orgsList = [
         linkedin: `https://www.linkedin.com/company/caartunicamp/`,
         instagram: `https://www.instagram.com/caart.unicamp`,
         site: `https://linktr.ee/caart.unicamp/`,
-        
+
     },
     {
         title: `CAAUL`,
+        university: `FCA`,
         image: `caaul.jpeg`,
         describe: `Olá! Somos o CAAUL, Centro Acadêmico de Administradores da Unicamp de Limeira, e nos responsabilizamos por canalizar todas as vozes presentes no curso, sendo a representação mais forte dos discentes.
         <br><br>
@@ -155,10 +165,11 @@ let orgsList = [
         <br><br>
         Procuramos, também, trazer novas experiências através de uma série de eventos, palestras e discussões, otimizando, assim, a vida universitária dos estudantes. Nos siga no insta para saber mais!`,
         instagram: `https://www.instagram.com/caaulim`,
-        
+
     },
     {
         title: `Camaleão`,
+        university: `FT`,
         image: `camaleao.jpeg`,
         describe: `A Camaleão representa os alunos dos cursos de ambiental da FT, buscando atender suas demandas e promover eventos com temas de interesse acadêmico como palestras, workshops, visitas técnicas e a fins. Em 2019, a Camaleão em parceria com o GGUS - Grupo Gestor Universidade Sustentável, retirou os copos descartáveis do bandejão nos campus de Limeira. Outra atividade importante ocorreu em 2020, através da parceria com outras Universidades estaduais como a Unesp, UFSCar e UFPR, na qual nós nos unimos para formar a primeira Semana Integrada Do Meio Ambiente e Tecnologia. 
         <br><br>
@@ -167,7 +178,28 @@ let orgsList = [
         youtube: `https://www.youtube.com/@comissaoambiental1376/streams`
     },
     {
+        title: `CAMAB`,
+        university: `FCA`,
+        image: `camab.jpeg`,
+        describe: `CAMAB - Centro Acadêmico Maria Cristina Faber Boog
+
+        O Centro Acadêmico Maria Cristina Faber Boog (CAMAB) é uma entidade do movimento estudantil que representa os alunos do curso de nutrição da Faculdade de Ciências Aplicadas (FCA) da UNICAMP, com sede no município de Limeira. 
+        <br><br>
+        O CAMAB tem como finalidade promover, através de debates, conferências, cursos e mídias sociais a discussão de assuntos culturais, sociais, políticos e científicos; 
+        
+        realizar encontros, seminários, projetos, palestras e outros eventos voltados para a área de Nutrição; 
+        
+        fortalecer o desenvolvimento dos futuros profissionais da Nutrição formados pela UNICAMP com ideais éticos e norteados por respeito às particularidades socioeconômicas e culturais; 
+        
+        reconhecer, estimular e representar a luta dos estudantes de Nutrição em defesa de seus direitos legítimos dentro e fora da Universidade, bem como lutar pela democracia em todos os espaços.
+        <br><br>
+        `,
+        instagram: `https://www.instagram.com/camab.nutricao/`,
+        email: `mailto:camab@unicamp.br`
+    },
+    {
         title: `CAT`,
+        university: `FT`,
         image: `cat.png`,
         describe: `O Centro Acadêmico de Tecnologia (CAT) é uma entidade discente que tem como papel representar todos os estudantes da FT, sendo tambem responsável pela organização de atividades acadêmicas extracurriculares como debates, discussões, palestras, semanas temáticas, visitas técnicas em empresas privadas e órgãos públicos, recepção de calouros, realização de projetos, mobilização e organização de reivindicações e ações políticas dos estudantes, mediação de negociações e conflitos individuais e coletivos entre estudantes e a faculdade. 
         <br><br>
@@ -178,6 +210,7 @@ let orgsList = [
 
     {
         title: `CAACS - Centro Acadêmico Antônio da Costa Santos`,
+        university: `FCA`,
         image: `caacs.jpeg`,
         describe: `O Centro Acadêmico Antônio da Costa Santos é uma organização sem fins lucrativos, apartidária, e também é o primeiro Centro Acadêmico formado na FCA (em 2013) e nasce com intuito dos alunos que sentiam a necessidade de lutar por melhorias no, até então, curso de Gestão de Políticas Públicas que estava mergulhado em uma matriz curricular quase que exclusivamente voltada para gestão privada.
         <br><br>
@@ -187,16 +220,18 @@ let orgsList = [
 
     {
         title: `CDI - Comissão Discente de Informática`,
+        university: `FT`,
         image: `cdi.png`,
         describe: `Nós somos a organização que representa os cursos de T.I dentro da Faculdade de Tecnologia da Unicamp - T.A.D.S e S.I. Além de ser um canal oficial de comunicação entre os alunos e os docentes, organizamos uma série de eventos como: cursos, palestras e visitas técnicas em parceria com a comunidade e com empresas tech. Dessa forma, trabalhamos para que sua jornada na Universidade seja aproveitada da melhor forma possível! Conte com a CDI durante seu ano letivo para tirar dúvidas e sugerir ideias. 
         <br><br>
         Logo mais, abriremos nosso processo seletivo e contamos com a sua presença para engajar e impactar cada vez mais alunos! 💙🐧`,
-        email:`mailto:comissao.informatica.ft@gmail.com`,
+        email: `mailto:comissao.informatica.ft@gmail.com`,
         linkedin: `https://www.linkedin.com/company/cdi-ft-unicamp/mycompany/`,
-        instagram:  `https://www.instagram.com/comissaodeinformatica/`,
+        instagram: `https://www.instagram.com/comissaodeinformatica/`,
     },
     {
         title: `Coletivo Indígena`,
+        university: `FT | FCA`,
         image: `colindigena.jpg`,
         describe: `Coletivo formado por estudantes indígenas da UNICAMP (FT e FCA) com o objetivo de
         receber, alocar nas repúblicas, ajudar na adaptação dos calouros indígenas e auxiliar
@@ -205,6 +240,7 @@ let orgsList = [
     },
     {
         title: `Coletivo Conexão Preta`,
+        university: `FT | FCA`,
         image: `conpreta.jpeg`,
         describe: `Fundado em 2018 por alunos dos campus FT e FCA, o coletivo tem como propósito conectar pessoas negras dentro do ambiente universitário, que para além de se aquilombar, também formarem uma rede de apoio contra o racismo.
         <br><br>
@@ -219,6 +255,7 @@ let orgsList = [
     },
     {
         title: `CVU`,
+        university: `FT | FCA`,
         image: `cvu.png`,
         describe: `O CVU (Centro de Voluntariado Universitário) é uma associação sem fins lucrativos, de caráter não religioso e não político sediada em Ribeirão Preto-SP, fundada em 2011, composta por estudantes e professores universitários.”
         <br><br>
@@ -232,6 +269,7 @@ let orgsList = [
     },
     {
         title: `EcoEdu Ambiental`,
+        university: `FT`,
         image: `ecoedu.png`,
         describe: `A Ecoedu Ambiental é um programa de Extensão Comunitária composto de alunos da FT e FCA, e está aberta a qualquer aluno que queira nos conhecer e fazer parte desse projeto lindo!
         <br><br>
@@ -249,6 +287,7 @@ let orgsList = [
     },
     {
         title: `Enactus`,
+        university: `FT | FCA`,
         image: `enactus.jpeg`,
         describe: `A Enactus é uma organização internacional sem fins lucrativos dedicada a inspirar estudantes a mudar o mundo através da Ação Empreendedora.
         <br><br>
@@ -261,6 +300,7 @@ let orgsList = [
     },
     {
         title: `Engenheiros Sem Fronteiras`,
+        university: `FT | FCA`,
         image: `esf.jpeg`,
         describe: `O Engenheiros Sem Fronteiras - Núcleo Limeira é uma organização estudantil que visa a transformação social de comunidades vulneráveis de Limeira, por meio de projetos utilizando a engenharia. Somos uma instituição de voluntariado que apresenta núcleos em diversos estados do Brasil com o mesmo propósito, o impacto no coletivo.
         <br><br>
@@ -275,16 +315,18 @@ let orgsList = [
         Vem transformar o mundo com a gente! 💚`,
         linkedin: `https://www.linkedin.com/company/esf-limeira`,
         instagram: `https://www.instagram.com/esflimeira`,
-    },    
+    },
     {
         title: `Frente Feminista`,
+        university: `FT | FCA`,
         image: `ff.png`,
         describe: `Fundada em 2013, a Frente Feminista é um coletivo, cuja a missão é lutar pelos direitos das mulheres cis/trans, pela igualdade de gênero, combater o machismo, e ser uma rede de apoio entre mulheres. Através da disseminação de informações, dialogar sobre como o machismo ocorre no ambiente universitário, evidenciar as opressões que cada mulher sofre, reconhecendo uma luta em comum promovendo a sororidade. Nosso objetivo é integrar, contribuir nos eventos culturais, e tratar de temáticas feministas e da autopercepção de mulheres e seu papel na sociedade.`,
         site: `https://linktr.ee/frentefeminista_limeira`,
         instagram: `https://instagram.com/frentefeminista_limeira`,
-    },   
+    },
     {
         title: `Integra`,
+        university: `FT | FCA`,
         image: `integra.jpeg`,
         describe: `Integra é uma Empresa júnior, prestadora de serviços de consultoria nas áreas de Engenharia e Administração. É constituída e gerida por alunos de graduação da UNICAMP e atua no mercado desde 2009. Nesse pequeno período já foram realizados mais de 150 projetos de consultoria para clientes com diferentes intuitos, modelos de negócio e perfis.
         <br><br>
@@ -294,6 +336,7 @@ let orgsList = [
     },
     {
         title: `Liestag`,
+        university: `FT | FCA`,
         image: `liestag.jpeg`,
         describe: `Olá, nós somos a Liestag, a sua liga de estágios da Unicamp. 
         <br><br>
@@ -310,6 +353,7 @@ let orgsList = [
     },
     {
         title: `Liga de Data Science`,
+        university: `FCA`,
         image: `ligads.jpeg`,
         describe: `A Liga de Data Science é um grupo de estudos focado em ciência de dados. Nosso principal objetivo é conhecer e ensinar tópicos importantes relacionados a business intelligence, análise de dados e machine learning, além de desenvolver projetos próprios que envolvem esses temas.
         <br><br>
@@ -323,6 +367,7 @@ let orgsList = [
     },
     {
         title: `Liga de Marketing`,
+        university: `FCA`,
         image: `ligamkt.png`,
         describe: `A Liga de Marketing foi criada em 2017 por alunos de Administração da Unicamp que gostariam de expandir seus conhecimentos na vasta e maravilhosa área do Marketing, uma vez que não existe um curso diretamente relacionado a isso na faculdade.
         <br><br>
@@ -340,6 +385,7 @@ let orgsList = [
     },
     {
         title: `Liga do Mercado Financeiro`,
+        university: `FCA`,
         image: `lmf.png`,
         describe: `A Liga do Mercado Financeiro da Unicamp surgiu em 2015 no campus de Limeira, na Faculdade de Ciências Aplicadas, através de um grupo de universitários dos cursos de Engenharia de Produção, Engenharia de Manufatura e Administração, que tinham paixão pelo mercado financeiro.
         <br><br>
@@ -351,6 +397,7 @@ let orgsList = [
     },
     {
         title: `Limeteria`,
+        university: `FT | FCA`,
         image: `limeteria.png`,
         describe: `A LIMETERIA é a bateria universitária da Unicamp de Limeira, nós representamos todos os cursos da FT e FCA, promovendo integração entre os cursos através da cultura do samba.
         <br><br>
@@ -364,6 +411,7 @@ let orgsList = [
     },
     {
         title: `Marsha pelo Orgulho`,
+        university: `FT | FCA`,
         image: `marsha.png`,
         describe: `O coletivo Marsha Pelo Orgulho é uma organização estudantil, que tem como objetivo
         incentivar a inclusão e o reconhecimento da comunidade LGBTQIA+ na vida
@@ -379,6 +427,7 @@ let orgsList = [
     },
     {
         title: `Mosaico`,
+        university: `FT | FCA`,
         image: `mosaico.png`,
         describe: `O Mosaico é um grupo cristão, organizado e mantido por estudantes da Unicamp. O grupo se reúne semanalmente para compartilhar valores e mensagens bíblicas. O grupo preza pelo relacionamento entre pessoas e pelo respeito as diferenças. O Mosaico não possui nenhuma denominação religiosa, portanto não tem como foco levantar as diferenças, o fator em comum que reúne as pessoas é Cristo. A missão do Mosaico é unir os cristãos da Unicamp, formando uma família, oferecendo apoio espiritual, acadêmico e social a toda comunidade acadêmica. E a partir dessa união, alcançar estudantes que não conhecem a Cristo, através do evangelho e do testemunho.`,
         site: ``,
@@ -388,6 +437,7 @@ let orgsList = [
     },
     {
         title: `MTE`,
+        university: `FCA`,
         image: `mte.jpeg`,
         describe: ` O Mercado de Trabalho em Engenharia (MTE) é uma organização estudantil que abrange os estudantes das 5 engenharias da Unicamp Limeira. Nossa missão é de aproximar os estudantes de engenharia das diferentes oportunidades do mercado de trabalho, criando conexões com grandes empresas por meio de experiências únicas.
         <br><br>
@@ -401,6 +451,7 @@ let orgsList = [
     },
     {
         title: `MUUVA`,
+        university: `FCA`,
         image: `muuva.png`,
         describe: `Nós somos o Muuva: Movimento Universitário de União entre Veganos e Agregados
         <br><br>
@@ -414,6 +465,7 @@ let orgsList = [
     },
     {
         title: `Refúgio`,
+        university: `FT | FCA`,
         image: `refugio.jpeg`,
         describe: `A Refúgio Unicamp Limeira é um grupo formado por alunos da Unicamp Limeira (FT e FCA). Somos responsáveis por auxiliar os grupos sócio-acêntrico que se encontram dentro do contexto universitário e que possam passar por situações de machismo, racismo, lgbtqia+fobia, gordofobia, xenofobia ou qualquer outro tipo de preconceito. Além disso, cabe à Refúgio conscientizar a comunidade universitária sobre a Redução de Danos e integrá-la como um modo de prevenção de violências como um todo.`,
         email: `mailto:refugiounicamplimeira@gmail.com`,
@@ -422,10 +474,11 @@ let orgsList = [
     },
     {
         title: `Sinergia`,
+        university: `FT`,
         image: `sinergia.png`,
         describe: `A área de energia é extremamente abrangente e multidisciplinar, sendo o setor que mais cresce nos últimos anos. Nós do Sinergia-CTE, somos uma organização estudantil sem fins lucrativos da Unicamp que visa aproximar os estudantes do mercado energético, assim como trabalhar com as áreas sociais, educacionais, ambientais e econômicas que estão correlacionadas a energia.
         <br><br>
-        Para que isso seja possível realizamos diversos projetos, capacitações, palestras e parcerias. O nosso curso “ENERGIA: Matrizes e Mercado”, além de contar como horas complementares e recebe a certificação da Escola de Extensão da UNICAMP- EXTECAMP é prestigiado por diversas empresas do setor, como por exemplo: RAÍZEN, CPFL, COMERC, SOLSTÍCIO e outros gigantes do setor.`,
+        Para que isso seja possível realizamos diversos projetos, capacitações, palestras e parcerias. O nosso curso “ENERGIA: Matrizes e Mercado”, além de contar como horas complementares e recebe a certificação da Escola de Extensão da UNICAMP-EXTECAMP é prestigiado por diversas empresas do setor, como por exemplo: RAÍZEN, CPFL, COMERC, SOLSTÍCIO e outros gigantes do setor.`,
         site: `https://www.sinergiacte.com.br/home`,
         facebook: `https://www.facebook.com/cte.sinergia`,
         instagram: `https://www.instagram.com/sinergiacte/`,
@@ -433,10 +486,13 @@ let orgsList = [
     },
     {
         title: `Torque Baja`,
+        university: `FT | FCA`,
         image: `torquebaja.jpeg`,
         describe: `A Equipe Torque Baja é uma organização sem fins lucrativos que tem como objetivo integrar tanto a área administrativa quanto a área de projetos para o desenvolvimento de um veículo off-road para competições.
         <br><br>
-        Os alunos que participam da Equipe Torque Baja formam equipes que representarão a FCA e FT no projeto Baja SAE. O projeto Baja SAE é um desafio lançado aos estudantes de diversas áreas de conhecimento que oferece a chance de aplicar na prática os conhecimentos adquiridos em sala de aula, visando incrementar sua preparação para o mercado de trabalho. Ao participar do projeto Baja SAE, o aluno se envolve com um caso real de desenvolvimento de projeto, desde sua a concepção, projeto detalhado e construção. No Brasil o projeto recebe o nome de Projeto Baja SAE BRASIL. Estas equipes são desafiadas semestralmente a participar de competições com o veículo construído por nós. Porém, antes do evento, o objetivo de cada equipe é projetar e construir um protótipo recreativo off- road. Esse projeto e a fabricação do veículo deve ser desenvolvido pelos membros da equipe sem envolvimento direto de engenheiros, educadores, profissionais do ramo off-road ou ligados a esportes a motor.`,
+        Os alunos que participam da Equipe Torque Baja formam equipes que representarão a FCA e FT no projeto Baja SAE. O projeto Baja SAE é um desafio lançado aos estudantes de diversas áreas de conhecimento que oferece a chance de aplicar na prática os conhecimentos adquiridos em sala de aula, visando incrementar sua preparação para o mercado de trabalho. Ao participar do projeto Baja SAE, o aluno se envolve com um caso real de desenvolvimento de projeto, desde sua a concepção, projeto detalhado e construção. No Brasil o projeto recebe o nome de Projeto Baja SAE BRASIL. 
+        <br><br>
+        Estas equipes são desafiadas semestralmente a participar de competições com o veículo construído por nós. Porém, antes do evento, o objetivo de cada equipe é projetar e construir um protótipo recreativo off- road. Esse projeto e a fabricação do veículo deve ser desenvolvido pelos membros da equipe sem envolvimento direto de engenheiros, educadores, profissionais do ramo off-road ou ligados a esportes a motor.`,
         linkedin: `https://www.linkedin.com/company/torquebaja`,
         instagram: `https://www.instagram.com/equipetorque/`,
         facebook: `https://pt-br.facebook.com/fcabaja/`,
@@ -444,6 +500,7 @@ let orgsList = [
     },
     {
         title: `Trote da Cidadania`,
+        university: `FT | FCA`,
         image: `trote.jpeg`,
         describe: `"O Trote da Cidadania Unicamp/Limeira, é uma organização estudantil de cunho social, a qual visa aproximar a comunidade de Limeira e a universidade através de eventos voluntários. Trabalhamos para despertar a conscientização do potencial transformador de cada um na sociedade e buscamos refletir cada detalhe de nossas vidas dentro de um contexto global, para tornar o mundo em que vivemos um lugar mais humano, agradável e sustentável para nós e para as próximas gerações.
         <br><br>
@@ -452,6 +509,7 @@ let orgsList = [
     },
     {
         title: `Teste`,
+        university: `Teste`,
         image: `nft.gif`,
         describe: `Muda aí pfv`,
         site: `a`,
@@ -470,37 +528,38 @@ let card = document.getElementById("cardOrgs");
 
 // CARDS
 for (let i = 0; i < orgsList.length; i++) {
-    if (typeof orgsList[i] == 'undefined' || !orgsList[i].disabled){
+    if (typeof orgsList[i] == 'undefined' || !orgsList[i].disabled) {
         card.innerHTML += mkOrgCard(orgsList[i]);
     }
 };
 
-function mkOrgCard (orgObj) {
+function mkOrgCard(orgObj) {
     let cardModel = '';
 
     cardModel += '<div class="card mx-auto mt-5 cardStyle" style="width: 18rem; ">';
 
     // weird identation made to match html structure
     cardModel += '<div class="column-img-social">';
-        cardModel += `<div> <img src="./img/${orgObj.image}" class="mt-3 card-img-top" alt="..." /> </div>`;
-        
-        cardModel += `<div class="buttons-card">`;
-            
-            cardModel += mkIcon(orgObj.site, `fa-solid fa-globe`);
-            cardModel += mkIcon(orgObj.facebook, `fa-brands fa-facebook`);
-            cardModel += mkIcon(orgObj.instagram, `fa-brands fa-instagram`);
-            cardModel += mkIcon(orgObj.email, `fa-solid fa-envelope`);
-            cardModel += mkIcon(orgObj.linkedin, `fa-brands fa-linkedin`);
-            cardModel += mkIcon(orgObj.youtube, `fa-brands fa-youtube`);
-            cardModel += mkIcon(orgObj.whatsapp, `fa-brands fa-whatsapp`);
-            cardModel += mkIcon(orgObj.discord, `fab fa-discord`);
+    cardModel += `<div> <img src="./img/${orgObj.image}" class="mt-3 card-img-top" alt="..." /> </div>`;
 
-        cardModel += `</div>`;
+    cardModel += `<div class="buttons-card">`;
+
+    cardModel += mkIcon(orgObj.site, `fa-solid fa-globe`);
+    cardModel += mkIcon(orgObj.facebook, `fa-brands fa-facebook`);
+    cardModel += mkIcon(orgObj.instagram, `fa-brands fa-instagram`);
+    cardModel += mkIcon(orgObj.email, `fa-solid fa-envelope`);
+    cardModel += mkIcon(orgObj.linkedin, `fa-brands fa-linkedin`);
+    cardModel += mkIcon(orgObj.youtube, `fa-brands fa-youtube`);
+    cardModel += mkIcon(orgObj.whatsapp, `fa-brands fa-whatsapp`);
+    cardModel += mkIcon(orgObj.discord, `fab fa-discord`);
+
+    cardModel += `</div>`;
     cardModel += `</div>`;
 
 
     cardModel += `<div class="card-body">
                     <h3 class="card-title text-center"> ${orgObj.title} </h3>
+                    <h5 class="card-title text-center"> ${orgObj.university} </h3>
                     <p class="card-text text-center"> ${orgObj.describe}</p>
                 </div>`;
 
@@ -512,7 +571,7 @@ function mkOrgCard (orgObj) {
 function mkIcon(link, cssClass) {
     iconModel = ``;
 
-    if (typeof link !== 'undefined' && link !== ''){
+    if (typeof link !== 'undefined' && link !== '') {
         iconModel += `
         <a href="${link}" target="_blank" class="btn-card btn">
             <i class="${cssClass}" style="text-decoration: none; color: white;"></i>

@@ -58,10 +58,17 @@ section .welcome h6 {
 }
 
 #cardOrgs h3 {
-    margin-bottom: 1.5rem;
+    margin-bottom: 1rem;
     font-size: 1.2rem !important;
     color: #03b84f;
     font-weight: 700;
+}
+
+#cardOrgs h5 {
+    margin-bottom: 1rem;
+    font-size: 1.1rem !important;
+    color: #03b84f;
+    font-weight: 600;
 }
 
 #cardOrgs p {
