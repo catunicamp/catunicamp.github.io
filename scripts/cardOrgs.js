@@ -25,6 +25,8 @@ let orgsList = [
         `,
         site: `https://linktr.ee/aaaeta.unicamp`,
         instagram: `https://www.instagram.com/aaaeta`,
+        fca:false,
+        ft:true,
     },
     {
         title: `AAATU`,
@@ -43,6 +45,8 @@ let orgsList = [
         `,
         site: `https://beacons.page/atleticaaaatu`,
         instagram: `https://www.instagram.com/atleticaaatu`,
+        fca:false,
+        ft:true,
     },
     {
         title: `AIESEC`,
@@ -58,6 +62,8 @@ let orgsList = [
         `,
         site: `https://aiesec.org.br/membresia/`,
         instagram: `https://www.instagram.com/aiesecnobrasil`,
+        fca:true,
+        ft:true,
     },
     {
         title: `Apis`,
@@ -69,6 +75,8 @@ let orgsList = [
         A Apis convida vocês a conhecerem mais sobre nosso trabalho.Estamos disponíveis pela dm ! 😉
         `,
         instagram: `https://www.instagram.com/apisaerodesign`,
+        fca:true,
+        ft:true,
     },
     {
         title: `ARULI`,
@@ -80,6 +88,8 @@ let orgsList = [
         `,
         instagram: `https://www.instagram.com/arulimeiraoficial`,
         site: `http://encurtador.com.br/hrB34`,
+        fca:true,
+        ft:true,
     },
     {
         title: `Asas`,
@@ -98,6 +108,8 @@ let orgsList = [
         facebook: `https://www.facebook.com/Asas.limeira`,
         email: ``,
         instagram: `https://www.instagram.com/asas.limeira`,
+        fca:true,
+        ft:true,
     },
     {
         title: `Atria Júnior`,
@@ -119,6 +131,8 @@ let orgsList = [
         facebook: `https://www.facebook.com/jr.Atria`,
         whatsapp: `https://wa.me/+5511947247767`,
         instagram: `https://www.instagram.com/atriajr`,
+        fca:false,
+        ft:true,
     },
     {
         title: `CAART`,
@@ -130,6 +144,8 @@ let orgsList = [
         O principal objetivo do CA é incentivar o desenvolvimento humano, social, acadêmico e profissional dos membros e alunos, por meio de projetos relacionados a engenharia de transportes, logística e mobilidade. Esse incentivo se materializa em forma de palestras, visitas técnicas, indicações de cursos e fornecimento de outras atividades extracurriculares.`,
         linkedin: `https://www.linkedin.com/company/caartunicamp/`,
         instagram: `https://www.instagram.com/caart.unicamp`,
+        fca:false,
+        ft:true,
     },
     {
         title: `Camaleão`,
@@ -138,7 +154,9 @@ let orgsList = [
         <br><br>
         Se você faz parte do curso de Tecnologia em Saneamento Ambiental e Engenharia Ambiental e deseja construir uma universidade e sociedade mais sustentável, fique ligado(a) em nossas redes sociais e junte-se a nós!`,
         instagram: `https://www.instagram.com/camaleaoft`,
-        youtube: `https://www.youtube.com/@comissaoambiental1376/streams`
+        youtube: `https://www.youtube.com/@comissaoambiental1376/streams`,
+        fca:false,
+        ft:true,
     },
     {
         title: `CAT`,
@@ -148,6 +166,8 @@ let orgsList = [
         Já dá pra ver o quanto que dá pra fazer né? Então se ficou interessado em movimentar a facul com a gente, não perca as datas do processo seletivo e segue a gente lá no Instagram: @cat.limeira`,
         facebook: `https://www.instagram.com/cat.limeira/`,
         instagram: `https://www.instagram.com/cat.limeira/`,
+        fca:false,
+        ft:true,
     },
     {
         title: `CDI - Comissão Discente de Informática`,
@@ -158,6 +178,8 @@ let orgsList = [
         email:`mailto:comissao.informatica.ft@gmail.com`,
         linkedin: `https://www.linkedin.com/company/cdi-ft-unicamp/mycompany/`,
         instagram:  `https://www.instagram.com/comissaodeinformatica/`,
+        fca:false,
+        ft:true,
     },
     {
         title: `Coletivo Indígena`,
@@ -166,6 +188,8 @@ let orgsList = [
         receber, alocar nas repúblicas, ajudar na adaptação dos calouros indígenas e auxiliar
         nas demandas da vida desses estudantes`,
         instagram: `https://instagram.com/coletivoindigenaunicamplimeira`,
+        fca:true,
+        ft:true,
     },
     {
         title: `Coletivo Conexão Preta`,
@@ -180,6 +204,8 @@ let orgsList = [
         instagram: `https://www.instagram.com/coletivoconexaopreta/`,
         youtube: `https://www.youtube.com/@coletivoconexaopreta7472/streams`,
         site: `http://linktr.ee/coletivoconexaopreta`,
+        fca:true,
+        ft:true,
     },
     {
         title: `CVU`,
@@ -193,6 +219,8 @@ let orgsList = [
         facebook: `https://www.facebook.com/cvulimeira`,
         email: ``,
         instagram: `https://www.instagram.com/cvulimeira`,
+        fca:true,
+        ft:true,
     },
     {
         title: `EcoEdu Ambiental`,
@@ -209,7 +237,9 @@ let orgsList = [
         Venha também fazer história participando como membro dessa equipe! Entre em contato com a gente.`,
         email: `mailto:ecoedu@ft.unicamp.br`,
         site: `https://wordpress.ft.unicamp.br/ecoedu`,
-        instagram: `https://www.instagram.com/ecoeduambiental`
+        instagram: `https://www.instagram.com/ecoeduambiental`,
+        fca:false,
+        ft:true,
     },
     {
         title: `Enactus`,
@@ -222,6 +252,8 @@ let orgsList = [
         <br><br>
         Nosso Processo Seletivo estará aberto no dia 9 de março! Não perca a chance de desenvolver habilidades, se preparar para o mercado de trabalho e melhorar o mundo através da Ação Empreendedora com a gente!`,
         instagram: `https://www.instagram.com/enactusunicamplimeira`,
+        fca:true,
+        ft:true,
     },
     {
         title: `Engenheiros sem Fronteiras`,
@@ -239,6 +271,8 @@ let orgsList = [
         Vem transformar o mundo com a gente! 💚`,
         linkedin: `https://www.linkedin.com/company/esf-limeira`,
         instagram: `https://www.instagram.com/esflimeira`,
+        fca:true,
+        ft:true,
     },    
     {
         title: `Frente Feminista`,
@@ -246,6 +280,8 @@ let orgsList = [
         about: `Fundada em 2013, a Frente Feminista é um coletivo, cuja a missão é lutar pelos direitos das mulheres cis/ trans, pela igualdade de gênero, combater o machismo, e ser uma rede de apoio entre mulheres. Através da disseminação de informações, dialogar sobre como o machismo ocorre no ambiente universitário, evidenciar as opressões que cada mulher sofre, reconhecendo uma luta em comum promovendo a sororidade. Nosso objetivo é integrar, contribuir nos eventos culturais, e tratar de temáticas feministas e da autopercepção de mulheres e seu papel na sociedade.`,
         site: `https://linktr.ee/frentefeminista_limeira`,
         instagram: `https://instagram.com/frentefeminista_limeira`,
+        fca:true,
+        ft:true,
     },   
     {
         title: `Integra`,
@@ -255,6 +291,8 @@ let orgsList = [
         Somos comprometidos com nosso trabalho como empresários juniores por acreditarmos que por meio dos nossos projetos podemos impactar a sociedade a nossa volta positivamente. Além disso, estamos todos unidos pelo propósito de crescermos como seres humanos, alunos e futuros profissionais`,
         site: `https://integraej.com/`,
         instagram: `https://www.instagram.com/integra.ej/`,
+        fca:true,
+        ft:false,
     },
     {
         title: `Liestag`,
@@ -270,7 +308,9 @@ let orgsList = [
         Quer conhecer mais a Liestag? Entre em contato pelas nossas redes`,
         instagram: `https://www.instagram.com/liestag`,
         linkedin: `https://www.linkedin.com/company/liestag/`,
-        discord: `https://discord.gg/etA5384XN3`
+        discord: `https://discord.gg/etA5384XN3`,
+        fca:true,
+        ft:true,
     },
     {
         title: `Liga de Data Science`,
@@ -284,6 +324,8 @@ let orgsList = [
         Gostaria de conhecer melhor nosso time e nossos projetos? Acesse o link do nosso instagram ou do nosso link tree.`,
         site: `https://linktr.ee/ligadsunicamp`,
         instagram: `https://www.instagram.com/ligadsunicamp`,
+        fca:true,
+        ft:true,
     },
     {
         title: `Liga de Marketing`,
@@ -301,6 +343,8 @@ let orgsList = [
         facebook: ``,
         email: ``,
         instagram: `https://www.instagram.com/ligademkt`,
+        fca:true,
+        ft:true,
     },
     {
         title: `Liga do Mercado Financeiro`,
@@ -312,6 +356,8 @@ let orgsList = [
         Se você tem curiosidade sobre o mercado financeiro, quer aprender como usar melhor o seu dinheiro e analisar empresas, seu lugar é com a gente! Te esperamos no nosso Processo Seletivo! Nos acompanhem pelo nosso Instagram @lmfunicamp para mais informações!`,
         site: `https://www.lmfunicamp.com/`,
         instagram: `https://www.instagram.com/lmfunicamp`,
+        fca:true,
+        ft:true,
     },
     {
         title: `Limeteria`,
@@ -325,6 +371,8 @@ let orgsList = [
         Acompanhem nossas redes sociais @limeteria e venha ser um LimeLover`,
         site: `https://linktr.ee/Limeteria`,
         instagram: `https://www.instagram.com/limeteria`,
+        fca:true,
+        ft:true,
     },
     {
         title: `Marsha pelo Orgulho`,
@@ -339,7 +387,9 @@ let orgsList = [
         <br><br>
         Você quer conhecer mais sobre nós? Entre em contato conosco`,
         instagram: `https://www.instagram.com/marshaunicamplimeira/`,
-        email: `mailto:marsha.unicamplimeira@gmail.com`
+        email: `mailto:marsha.unicamplimeira@gmail.com`,
+        fca:true,
+        ft:true,
     },
     {
         title: `Mosaico`,
@@ -349,6 +399,8 @@ let orgsList = [
         facebook: `https://www.facebook.com/mosaicounicamp`,
         email: ``,
         instagram: `https://www.instagram.com/mosa1co`,
+        fca:true,
+        ft:true,
     },
     {
         title: `MTE`,
@@ -362,6 +414,8 @@ let orgsList = [
         linkedin: `https://www.linkedin.com/company/mtelimeira/`,
         email: ``,
         instagram: `https://instagram.com/mte_unicamp`,
+        fca:true,
+        ft:true,
     },
     {
         title: `MUUVA`,
@@ -375,6 +429,8 @@ let orgsList = [
         Através de projetos e ações dentro e fora da universidade conseguimos debater e conversar sobre o veganismo popular em diversas esferas sociopolíticas e científicas, sempre pautados na ciência.`,
         site: `https://linktr.ee/MUUVA.Unicamp`,
         instagram: `https://instagram.com/muuvaunicamp`,
+        fca:true,
+        ft:true,
     },
     {
         title: `Refúgio`,
@@ -382,7 +438,9 @@ let orgsList = [
         about: `A Refúgio Unicamp Limeira é um grupo formado por alunos da Unicamp Limeira (FT e FCA). Somos responsáveis por auxiliar os grupos sócio-acêntrico que se encontram dentro do contexto universitário e que possam passar por situações de machismo, racismo, lgbtqia+fobia, gordofobia, xenofobia ou qualquer outro tipo de preconceito. Além disso, cabe à Refúgio conscientizar a comunidade universitária sobre a Redução de Danos e integrá-la como um modo de prevenção de violências como um todo.`,
         email: `mailto:refugiounicamplimeira@gmail.com`,
         instagram: `https://www.instagram.com/refugio.unicamplimeira/`,
-        email: `mailto:refugiounicamplimeira@gmail.com`
+        email: `mailto:refugiounicamplimeira@gmail.com`,
+        fca:true,
+        ft:true,
     },
     {
         title: `Sinergia`,
@@ -393,7 +451,9 @@ let orgsList = [
         site: `https://www.sinergiacte.com.br/home`,
         facebook: `https://www.facebook.com/cte.sinergia`,
         instagram: `https://www.instagram.com/sinergiacte/`,
-        linkedin: `https://www.linkedin.com/in/sinergia-cte-06a039104/`
+        linkedin: `https://www.linkedin.com/in/sinergia-cte-06a039104/`,
+        fca:true,
+        ft:true,
     },
     {
         title: `Torque Baja`,
@@ -405,6 +465,8 @@ let orgsList = [
         instagram: `https://www.instagram.com/equipetorque/`,
         facebook: `https://pt-br.facebook.com/fcabaja/`,
         email: `mailto:bajafca@unicamp.br`,
+        fca:true,
+        ft:true,
     },
     {
         title: `Trote da Cidadania`,
@@ -413,6 +475,8 @@ let orgsList = [
         <br><br>
         Acreditamos que parte da nossa função social é agradecer a população de Limeira pela hospitalidade ao receber anualmente cerca de 800 novos alunos. Temos em nosso cronograma a semana de recepção de calouros, campanhas para doações, principalmente a de sangue que ocorre anualmente em parceria com o Hemocentro/Campinas; visitas a asilos, creches, ONG's e centros de reabilitação, além de um projeto que visa o desenvolvimento do senso crítico de crianças através de oficinas semanais. Porém, mesmo com o novo contexto que estamos vivendo, nossas ações não pararam. Nós adaptamos nossas ações para a forma remota, como a recepção dos bixos, campanhas de doações, etc!."`,
         instagram: `https://instagram.com/trotedacidadania`,
+        fca:true,
+        ft:true,
     },
     {
         title: `Teste`,
@@ -426,6 +490,8 @@ let orgsList = [
         linkedin: `a`,
         whatsapp: `a`,
         disabled: true,
+        fca:true,
+        ft:true,
     },
 ]
 
@@ -449,6 +515,11 @@ const card_blueprint = `
         <p class="card-text text-center"> 
             --none_text
         </p>
+        <hr>
+        <div class="row justify-content-center">
+            <img src="./logos/fca.png" style="width:6rem; height:3rem" alt="Logo da FCA">
+            <img src="./logos/ft.png"  style="width:4rem; height:3rem" alt="Logo da FT">
+        </div>
     </div>
 </div>
 `
@@ -487,12 +558,19 @@ function mkOrgCard (orgObj) {
 
 
     let card_body = card_model.children[1];
-    let title     = card_body.children[0];
+    let title     = card_body.children[0]
     let about     = card_body.children[1]
 
     title.innerText = orgObj.title;
     about.innerHTML = orgObj.about;
 
+    let images = card_body.children[3]
+    if(typeof orgObj.fca === 'undefined' || !orgObj.fca){
+        images.children[0].style.display = 'none'
+    }
+    if(typeof orgObj.ft === 'undefined' || !orgObj.ft){
+        images.children[1].style.display = 'none'
+    }
     return card_model;
 }
 
