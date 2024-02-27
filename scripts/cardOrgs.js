@@ -6,6 +6,7 @@ const OrgType = {
     ej:           'Empresas Júnior',
     voluntariado: 'Voluntariado',
     bateria:      'Bateria',
+    extensao:     'Projetos de Extensão',
     outro:        'Outros',
 
   };
@@ -154,9 +155,9 @@ let orgsList = [
         O que é uma empresa Júnior?
         <br><br>
         As Empresa Juniores são associações civis sem fins lucrativos e com fins educacionais formada exclusivamente por alunos do ensino superior, regulamentada no Brasil através da Lei 13.267/2016, com o propósito de realizar projetos e serviços que contribuam para o desenvolvimento acadêmico e profissional dos associados, capacitados para o mercado de trabalho. As empresas juniores fazem parte do Movimento Empresa Júnior (MEJ). O MEJ tem como missão formar, por meio da vivência empresarial, empreendedores comprometidos e capazes de transformar o Brasil. Desde 2010, o MEJ já impactou mais de R$70.000.000,00 na economia brasileira, que são integralmente reinvestidos na educação empreendedora dos estudantes.`,
-        site: `atriajr.com.br`,
+        site: `https://www.atriajr.com.br`,
         facebook: `https://www.facebook.com/jr.Atria`,
-        whatsapp: `https://wa.me/+5511947247767`,
+        whatsapp: `https://wa.me/+5519999921021`,
         instagram: `https://www.instagram.com/atriajr`,
         fca:false,
         ft:true,
@@ -190,15 +191,15 @@ let orgsList = [
         ft:true,
     },
     {
-        title: `CAT`,
+        title: `CAT - Centro Acadêmico de Tecnologia`,
         type: OrgType.ca,
         university: `FT`,
         image: `cat.png`,
         about: `O Centro Acadêmico de Tecnologia (CAT) é uma entidade discente que tem como papel representar todos os estudantes da FT, sendo tambem responsável pela organização de atividades acadêmicas extracurriculares como debates, discussões, palestras, semanas temáticas, visitas técnicas em empresas privadas e órgãos públicos, recepção de calouros, realização de projetos, mobilização e organização de reivindicações e ações políticas dos estudantes, mediação de negociações e conflitos individuais e coletivos entre estudantes e a faculdade. 
         <br><br>
         Já dá pra ver o quanto que dá pra fazer né? Então se ficou interessado em movimentar a facul com a gente, não perca as datas do processo seletivo e segue a gente lá no Instagram: @cat.limeira`,
-        facebook: `https://www.instagram.com/cat.limeira/`,
         instagram: `https://www.instagram.com/cat.limeira/`,
+        email: `mailto:cat@unicamp.br`,
         fca:false,
         ft:true,
     },
@@ -264,21 +265,22 @@ let orgsList = [
         ft:true,
     },
     {
-        title: `EcoEdu Ambiental`,
+        title: `Ecoedu Ambiental`,
         type: OrgType.outro,
         university: `FT`,
         image: `ecoedu.png`,
-        about: `A Ecoedu Ambiental é um programa de Extensão Comunitária composto de alunos da FT e FCA, e está aberta a qualquer aluno que queira nos conhecer e fazer parte desse projeto lindo!
+        about: `O Ecoedu Ambiental é um Programa de Extensão Comunitária composto de alunos da FT e FCA, e está aberto a qualquer aluno que queira nos conhecer e fazer parte!
         <br><br>
-        No programa, realizamos desde pesquisas científicas até ações pontuais e projetos sociais voltados a diversos públicos.
-        Atualmente temos 7 projetos de educação ambiental. São eles: VemSer, Plantando Conhecimento, Carpe Diem, Ações, Contação de Histórias, Blue e Trilha da Vida. 
+        No programa, realizamos desde pesquisas científicas, ações pontuais, formação de libras e projetos sociais voltados a diversos públicos, tais como pessoas com deficiência, escolas, empresas e asilos.
         <br><br>
-        Utilizamos da Educação Ambiental para valorizar o ser humano no contexto socioambiental, promovendo o autoconhecimento, autoestima e  senso crítico, além de estimular o interesse, curiosidade, e a capacidade de resolver problemas, incentivando a educação social por meio do senso crítico e do posicionamento.
+        Atualmente temos 8 projetos e são eles: VemSer, Plantando Conhecimento, Carpe Diem, Ações, Contação de Histórias, Blue, Trilha da Vida e Identidade.
+        <br><br>
+        Utilizamos da Educação Ambiental para valorizar o ser humano no contexto socioambiental, promovendo o autoconhecimento, autoestima e senso crítico, além de estimular o interesse, curiosidade, e a capacidade de resolver problemas, incentivando a educação social por meio do senso crítico e do posicionamento.
         <br><br>
         Levamos em consideração a interação e a interdependência de todos os aspectos ambientais: físicos, biológicos, econômicos, psicológicos, religiosos, sociais e culturais.
         <br><br>
-        Venha também fazer história participando como membro dessa equipe! Entre em contato com a gente.`,
-        email: `mailto:ecoedu@ft.unicamp.br`,
+        Venha também fazer história participando como membro dessa equipe! Entre em contato com a gente!!`,
+        email: `mailto:ecoedu@unicamp.br`,
         site: `https://wordpress.ft.unicamp.br/ecoedu`,
         instagram: `https://www.instagram.com/ecoeduambiental`,
         fca:false,
@@ -289,13 +291,15 @@ let orgsList = [
         type: OrgType.voluntariado,
         university: `FT | FCA`,
         image: `enactus.jpeg`,
-        about: `A Enactus é uma organização internacional sem fins lucrativos dedicada a inspirar estudantes a mudar o mundo através da Ação Empreendedora.
+        about: `A Enactus é uma organização internacional sem fins lucrativos dedicada a inspirar estudantes a mudar o mundo através da Ação Empreendedora. 
         <br><br>
-        A Enactus Unicamp Limeira tem como missão contribuir para o empoderamento das comunidades de Limeira, fomentando o empreendedorismo social.
+        A Enactus Unicamp Limeira tem como missão contribuir para o empoderamento das comunidades de Limeira, fomentando o empreendedorismo social. 
         <br><br>
-        Atualmente a Enactus Unicamp Limeira possui quatro projetos ativos e uma equipe de prospecção. O Projeto Solidifica, capacita mulheres a produzir e vender produtos capilares em barra, o Projeto Jatobá, oferece aulas preparatórias para alunos de 9° ano interessados em ingressar em Colégios Técnicos, o Projeto Geladown, capacita jovens com Síndrome de Down a produzir e vender geladinhos, o Projeto Reciclos, facilita a coleta de resíduos recicláveis do Campus universitário e da cidade de Limeira, além da Equipe de Prospecção Resiliência, que busca demandas para o desenvolvimento de um novo projeto para a organização.
+        Atualmente a Enactus Unicamp Limeira possui três projetos ativos e uma equipe de prospecção. O Projeto Solidifica, capacita mulheres a produzir e vender produtos capilares em barra, o Projeto Jataí oferece aulas preparatórias para alunos de 9° ano interessados em ingressar em Colégios Técnicos e possui uma parceria com o Colmeia, o Projeto Geladown, capacita jovens com Síndrome de Down a produzir e vender geladinhos além da Equipe de Prospecção Resiliência, que busca demandas para o desenvolvimento de um novo projeto para a organização. 
         <br><br>
-        Nosso Processo Seletivo estará aberto no dia 9 de março! Não perca a chance de desenvolver habilidades, se preparar para o mercado de trabalho e melhorar o mundo através da Ação Empreendedora com a gente!`,
+        Nosso Processo Seletivo estará aberto no dia 28 de fevereiro! Não perca a chance de desenvolver habilidades, se preparar para o mercado de trabalho e melhorar o mundo através da Ação Empreendedora com a gente!
+        <br><br>
+        Além disso, teremos um evento muito legal com palestras, coffee break, brindes e muitooo mais! Traremos pessoas renomadas do mercado de trabalho para trazer suas experiências e aprendizados. A Enactus Week é o evento queridinho mais esperados pelos enactors e abriremos para todos terem a oportunidade de participar! Se inscrevam! O evento ocorrerá no dia 5, 6 e 7 de março`,
         instagram: `https://www.instagram.com/enactusunicamplimeira`,
         fca:true,
         ft:true,
@@ -440,15 +444,9 @@ let orgsList = [
         type: OrgType.coletivo,
         university: `FT | FCA`,
         image: `marsha.png`,
-        about: `O coletivo Marsha Pelo Orgulho é uma organização estudantil, que tem como objetivo
-        incentivar a inclusão e o reconhecimento da comunidade LGBTQIA+ na vida
-        universitária dos alunos da Unicamp de Limeira; apoiar e promover toda ajuda
-        necessária aos membros da comunidade em casos de LGBTQIA+FOBIA; realizar
-        trabalhos e a promoção de assistência à coletividade; propiciar rodas de conversa,
-        integração dos membros e disseminar informações e conteúdos voltados ao público
-        LGBTQIA+.
+        about: `O coletivo Marsha Pelo Orgulho é uma organização estudantil, que tem como objetivo incentivar a inclusão e o reconhecimento da comunidade LGBTQIA+ na vida universitária dos alunos da Unicamp de Limeira; apoiar e promover toda ajuda necessária aos membros da comunidade em casos de LGBTQIA+FOBIA; realizar trabalhos e a promoção de assistência à coletividade; propiciar rodas de conversa, integração dos membros, roles LGBTs e compartilhar informações e conteúdos voltados ao público LGBTQIA+.
         <br><br>
-        Você quer conhecer mais sobre nós? Entre em contato conosco`,
+        Além disso, faz parte do Marsha o Núcleo de Consciência Trans de Limeira, um espaço para pessoas trans encontrarem acolhimento e pertencimento!`,
         instagram: `https://www.instagram.com/marshaunicamplimeira/`,
         email: `mailto:marsha.unicamplimeira@gmail.com`,
         fca:true,
@@ -472,7 +470,7 @@ let orgsList = [
         type: OrgType.outro,
         university: `FCA`,
         image: `mte.jpeg`,
-        about: ` O Mercado de Trabalho em Engenharia (MTE) é uma organização estudantil que abrange os estudantes das 5 engenharias da Unicamp Limeira. Nossa missão é de aproximar os estudantes de engenharia das diferentes oportunidades do mercado de trabalho, criando conexões com grandes empresas por meio de experiências únicas.
+        about: ` O Mercado de Trabalho em Engenharia (MTE) é uma organização estudantil que abrange os estudantes das 5 engenharias da Unicamp Limeira. Nossa missão é de auxiliar os estudantes de engenharia a se conectarem às oportunidades do mercado de trabalho, por meio de experiências marcantes e práticas.
         <br><br>
         Para tanto, contamos com uma equipe apaixonada e capacitada, que proporciona diversos eventos à comunidade universitária, incluindo workshops, desafios, cursos e visitas técnicas. Entre nossos eventos mais renomados estão o 24 Horas, o Simula+ e, é claro, a Semana das Engenharias de Limeira (SEMELIM), os quais possibilitam o contato direto com profissionais de excelência das mais diversas áreas de atuação das engenharias.”
         <br><br>
@@ -548,11 +546,159 @@ let orgsList = [
         type: OrgType.voluntariado,
         university: `FT | FCA`,
         image: `trote.jpeg`,
-        about: `"O Trote da Cidadania Unicamp/Limeira, é uma organização estudantil de cunho social, a qual visa aproximar a comunidade de Limeira e a universidade através de eventos voluntários. Trabalhamos para despertar a conscientização do potencial transformador de cada um na sociedade e buscamos refletir cada detalhe de nossas vidas dentro de um contexto global, para tornar o mundo em que vivemos um lugar mais humano, agradável e sustentável para nós e para as próximas gerações.
+        about: `"O Trote da Cidadania Unicamp/Limeira, é uma organização estudantil de cunho social, criada em 2012, a qual visa aproximar a comunidade de Limeira e a universidade através de ações e projetos voluntários. Trabalhamos para despertar a conscientização do potencial transformador de cada um na sociedade e buscamos refletir cada detalhe de nossas vidas dentro de um contexto global, para tornar o ambiente em que vivemos um lugar mais humano, agradável e sustentável para nós e para as próximas gerações.
         <br><br>
-        Acreditamos que parte da nossa função social é agradecer a população de Limeira pela hospitalidade ao receber anualmente cerca de 800 novos alunos. Temos em nosso cronograma a semana de recepção de calouros, campanhas para doações, principalmente a de sangue que ocorre anualmente em parceria com o Hemocentro/Campinas; visitas a asilos, creches, ONG's e centros de reabilitação, além de um projeto que visa o desenvolvimento do senso crítico de crianças através de oficinas semanais. Porém, mesmo com o novo contexto que estamos vivendo, nossas ações não pararam. Nós adaptamos nossas ações para a forma remota, como a recepção dos bixos, campanhas de doações, etc!."`,
+        Acreditamos que parte da nossa função social é agradecer a população de Limeira pela hospitalidade ao receber anualmente cerca de 800 novos alunos. Temos em nosso trajetória a semana de recepção de calouros (calourada), campanhas para doações, principalmente a de sangue que ocorre anualmente em parceria com o Hemocentro/Campinas; visitas a asilos, creches, ONG's e centros de reabilitação, além de projetos semanais que visam o desenvolvimento de diferentes públicos, como crianças e idosos.`,
         instagram: `https://instagram.com/trotedacidadania`,
         fca:true,
+        ft:true,
+    },
+    {
+        title: `AAAXO`,
+        type: OrgType.atletica,
+        image: `aaaxo.jpeg`,
+        about: `A A.A.A.X.O. é uma organização estudantil que representa os alunos dos cursos de Gestão, Administração e Administração Pública no âmbito universitário. A Atlética tem como mascote o Lobo Guará, o qual representa nossa raça e paixão em honrar o manto laranja e preto e que demonstra o fato de deixarmos nossa marca, pegada, por onde passamos da melhor maneira possível, seja nos esportes, em nossos eventos, produtos ou projetos sociais.
+        Acreditamos nos nossos alunos e fazemos tudo pensando em proporcionar o melhor a eles.
+        Somos conhecidos pela nossa união, pelos ótimos times que se destacam nos campeonatos universitários e por nossos eventos.`,
+        instagram: `https://www.instagram.com/aaaxdeoutubro/`,
+        facebook: `https://www.facebook.com/AtleticaXdeOutubro/`,
+        disabled: false,
+        fca:true,
+        ft:false,
+    },
+    {
+        title: `CAAUL - Centro Acadêmico de Administradores da Unicamp de Limeira`,
+        type: OrgType.ca,
+        image: `caaul.jpeg`,
+        about: `Olá! Somos o CAAUL, Centro Acadêmico de Administradores da Unicamp de Limeira, e nos responsabilizamos por canalizar todas as vozes presentes no curso, sendo a representação mais forte dos discentes. O nosso CA tem a missão de ouvir os estudantes, trabalhar em parceria com os professores e funcionários e construir a evolução do curso sempre. Procuramos, também, trazer novas experiências através de uma série de eventos, palestras e discussões, otimizando, assim, a vida universitária dos estudantes. Nos siga no insta para saber mais! @caaulim`,
+        instagram: `https://www.instagram.com/caaulim`,
+        disabled: false,
+        fca:true,
+        ft:false,
+    },
+    {
+        title: `CAACS - Centro Academico Antonio da Costa Santos `,
+        type: OrgType.ca,
+        image: `caacs.jpeg`,
+        about: `O Centro Acadêmico Antônio Costa Santos (CAACS) é uma organização sem fins lucrativos, apartidária, não-religiosa e que visa representar os alunos de Administração Pública da Universidade Estadual de Campinas (UNICAMP), na Faculdade de Ciências Aplicadas (FCA) na cidade de Limeira.
+        <br><br>
+        Antônio da Costa Santos (São Paulo, 4 de março de 1952 — Campinas, 10 de setembro de 2001), mais conhecido como Toninho do PT, foi arquiteto, professor universitário e político brasileiro. Quando foi assassinado, estava no cargo de prefeito de Campinas havia apenas oito meses e dez dias. Foi criado, em sua memoria, o Centro Acadêmico do curso de Administração Pública da Faculdade de Ciências Aplicadas da Universidade Estadual de Campinas (Unicamp) em 2013, onde o nome escolhido fora "Centro Acadêmico Antônio da Costa Santos" (Sigla Caccs) como forma de homenagem.`,
+        email: `mailto:caaacs.fca.unicamp@gmail.com`,
+        instagram: `https://www.instagram.com/caacs.unicamp`,
+        linkedin: `https://www.linkedin.com/company/centro-acad%C3%AAmico-ant%C3%B4nio-costa-santos/`,
+        whatsapp: `https://wa.me/+5535984356580`,
+        disabled: false,
+        fca:true,
+        ft:false,
+    },
+    {
+        title: `Clima de Mudança Unicamp Limeira`,
+        type: OrgType.outro,
+        image: `cdm.jpeg`,
+        about: `O Clima de Mudança Unicamp Limeira é um movimento de jovens, vertente do Clima de Mudança Nacional (sediado em SP), que tem como propósito reivindicar a ação climática no Brasil, levar mudanças concretas pelo clima para dentro da política institucional e promover a ideia de um país mais justo e sustentável.
+        <br><br>
+        Para isso, juntamos estudantes interessades e comprometides em planejar e realizar ações focadas nas pautas socioambientais e nas mudanças climáticas.
+        <br><br>
+        E ai, vêm fazer parte da mudança com a gente? 🌱🌎`,
+        site: `https://linktr.ee/cdmnaunicamp`,
+        email: `mailto:cdmunicamp@gmail.com`,
+        instagram: `https://www.instagram.com/cdmnaunicamp/`,
+        disabled: false,
+        fca:true,
+        ft:true,
+    },
+    {
+        title: `Nexus Girls`,
+        type: OrgType.coletivo,
+        image: `nexus.png`,
+        about: `Somos a comunidade de incentivo e permanência de mulheres na tecnologia! Nosso propósito é unir, incentivar e impulsionar as mulheres na tecnologia, sendo um ponto de apoio e partilha de conhecimentos em uma área que ainda somos minoria.
+        <br><br>
+        Nossa comunidade é composta por meninas de todos os cursos que se interessam por essa pauta, para que possamos ter um ambiente diverso e agregar cada vez mais perspectivas.
+        <br><br>
+        Vem fazer parte da nossa comunidade e conversar com a gente, vai ser um prazer te ter conosco, juntas somos mais fortes 💜🧡
+        `,
+        instagram: `https://www.instagram.com/nexus.girls_unicamp`,
+        linkedin: `https://www.linkedin.com/company/nexus-girls-unicamp/`,
+        whatsapp: `https://chat.whatsapp.com/Bg551vu5bozJ6sFawDnDI0`,
+        disabled: false,
+        fca:true,
+        ft:true,
+    },
+    {
+        title: `GTCMA`,
+        type: OrgType.extensao,
+        image: `gtcma.png`,
+        about: `Nós, do Grupo de Tecnologias e Cuidados com o Meio Ambiente, somos um projeto de pesquisa e extensão que atua na conscientização sobre questões que envolvem a educação ambiental. Atualmente, contamos com a participação de alunos e professores dos cursos de Engenharia e Saneamento Ambiental, de forma voluntária.
+        <br><br>
+        Através do ensino de práticas sustentáveis, eventos e dinâmicas são organizados periodicamente, a fim de promover a integração entre a universidade e a comunidade no geral. Alguns exemplos dessas atividades são o acompanhamento de um sistema de esgoto alternativo, chamado wetland, em uma escola rural da cidade; e a Semana de Desenvolvimento em Meio Ambiente (Sedema), que terá a quarta edição neste ano.
+        <br><br>
+        Então, para saber mais sobre as atividades desenvolvidas e participar desse projeto incrível, acompanhe a gente através dos nossos canais oficiais! 💛🌱🧡
+        `,
+        site: `https://sites.google.com/dac.unicamp.br/gtcma`,
+        email: `mailto:wetlandsftunicamp@gmail.com`,
+        instagram: `https://www.instagram.com/projeto_gtcma?igsh=MWdzaHNrOXFpamk1bw==`,
+        disabled: false,
+        fca:false,
+        ft:true,
+    },
+    {
+        title: `Raízes do Esporte`,
+        type: OrgType.voluntariado,
+        image: `raizes.jpeg`,
+        about: `O Raízes dos Esporte é uma organização estudantil sem fins lucrativos que zela pela formação de indivíduos com valores para a promoção do bem estar e equilíbrio social, como "Respeito", "Equidade", "Empatia", "Diversidade" e "União".
+        Para isso, nosso público principal são as crianças, com treinos, eventos e momentos marcantes na vida delas.
+        <br><br>
+        Quer saber mais como fazemos isso? Fique atento as redes sociais, pois divulgaremos as datas do Processo Seletivo e venha mudar vidas com a gente, para mais dias momentos felizes na vida dessas crianças! Lembrando que é Raízes para todos os cursos 🩵🩷`,
+        linkedin: `https://www.instagram.com/raizesdoesporte`,
+        whatsapp: `https://wa.me/+5513991673081`,
+        disabled: false,
+        fca:true,
+        ft:false,
+    },
+    {
+        title: `Unicamp Racing Team 1600`,
+        type: OrgType.extensao,
+        image: `f1600.jpeg`,
+        about: `A equipe Unicamp Racing Team 1600 é uma equipe de formula 1600 e um projeto de extensão no qual o objetivo é ensinar um real desafio de engenharia a partir da construção de um carro de corrida. 
+        <br><br>
+        O projeto apresenta pela primeira vez na historia uma equipe universitária entrando em uma categoria nacional no qual os próprios alunos fazem Administrativo, Comercial, Marketing e Construção do carro. As corridas serão no Autódromo de interlagos junto com outras Categorias como AMG cup, Old Stock, Copa HB20 entre outras.
+        <br><br>
+        A equipe também disponibiliza treinamentos internos sobre mecânica automotiva e também treinamentos mais específicos voltados para preparação de corrida.`,
+        email: `mailto:Unicamp Racing Team 1600`,
+        linkedin: `https://www.instagram.com/unicamp1600`,
+        disabled: false,
+        fca:true,
+        ft:true,
+    },
+    {
+        title: `CAMAB - Centro Acadêmico Maria Cristina Faber Boog`,
+        type: OrgType.ca,
+        image: `camab.png`,
+        about: `O Centro Acadêmico Maria Cristina Faber Boog (CAMAB) é uma entidade que representa os alunos do curso de nutrição da Faculdade de Ciências Aplicadas (FCA) da UNICAMP com sede no município de Limeira. O CAMAB tem como finalidade promover, através de debates, conferências, cursos e mídias sociais ou por quais quer outros meios a divulgação e discussão de assuntos culturais, sociais, políticos e científicos; realizar encontros, seminários, projetos e palestras e outros eventos voltados para a área de Nutrição.`,
+        facebook: `https://www.facebook.com/CAMAB.Nutricao`,
+        instagram: `https://www.instagram.com/camab.nutricao`,
+        youtube: `https://www.youtube.com/@camabunicamp1127/featured`,
+        linkedin: `https://br.linkedin.com/company/centro-acad%C3%AAmico-maria-cristina-faber-boog`,
+        disabled: false,
+        fca:true,
+        ft:false,
+    },
+    {
+        title: `CETEL - Comissão de Engenharia de Telecomunicações`,
+        type: OrgType.ca,
+        image: `cetel.png`,
+        about: `A CETEL é a Comissão de Engenharia de Telecomunicações, organizada por alunos para os alunos.
+        <br><br>
+        Nosso objetivo é promover a integração entre alunos do curso de Engenharia de Telecomunicações, diretoria, docentes e demais órgãos da Universidade. Assim, prestando apoio e orientação aos alunos de forma a auxiliar no desenvolvimento profissional e social, assim como aos membros internos da organização.
+        <br><br>
+        Na prática, buscamos promover eventos, palestras e visitas técnicas voltadas às áreas da Engenharia e das Telecomunicações.
+        <br><br>
+        Se você é aluno de Engenharia de Telecomunicações e quer contribuir diretamente para o fortalecimento do curso em nossa universidade, a CETEL é o lugar certo!
+        `,
+        site: `https://www.link.menuv.app/cetel`,
+        instagram: `https://www.instagram.com/telecomunicamp`,
+        disabled: false,
+        fca:false,
         ft:true,
     },
     {
@@ -562,15 +708,15 @@ let orgsList = [
         about: `Muda aí pfv`,
         site: `a`,
         facebook: `a`,
-        email: `a`,
+        email: `mailto:`,
         instagram: `a`,
         youtube: `a`,
         linkedin: `a`,
-        whatsapp: `a`,
+        whatsapp: `https://wa.me/`,
         disabled: true,
         fca:true,
         ft:true,
-    },
+    }
 ]
 
 const section_blueprint = `
@@ -596,7 +742,7 @@ const card_blueprint = `
         <h3 class="card-title text-center"> 
             --none_title 
         </h3>
-        <p class="card-text text-center"> 
+        <p class="card-text"> 
             --none_text
         </p>
         <div class="row justify-content-center">
