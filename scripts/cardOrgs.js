@@ -5,6 +5,7 @@ const OrgType = {
     coletivo:     'Coletivos',
     ej:           'Empresas Júnior',
     voluntariado: 'Voluntariado',
+    liga:         'Ligas',
     bateria:      'Bateria',
     extensao:     'Projetos de Extensão',
     outro:        'Outros',
@@ -266,7 +267,7 @@ let orgsList = [
     },
     {
         title: `Ecoedu Ambiental`,
-        type: OrgType.outro,
+        type: OrgType.voluntariado,
         university: `FT`,
         image: `ecoedu.png`,
         about: `O Ecoedu Ambiental é um Programa de Extensão Comunitária composto de alunos da FT e FCA, e está aberto a qualquer aluno que queira nos conhecer e fazer parte!
