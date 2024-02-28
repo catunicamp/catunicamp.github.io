@@ -19,7 +19,7 @@ let orgsList = [
         type: OrgType.atletica,
         university: `FT`,
         image: `aaaeta.png`,
-        about: `Parabéns!
+        about: `Parabéns!I
         Você foi aprovade na Unicamp e agora somos sua mais nova família. Seja Bem-vinde
         aos melhores anos da sua vida! Estamos ansioses para te conhecer!
         <br><br>
@@ -129,7 +129,7 @@ let orgsList = [
         <br><br>
         Além disso, o Asas é um ambiente comprometido e profissional, que proporciona o crescimento de seus membros e da própria organização, sem deixar de lado os momentos leves e divertidos.
         <br><br>
-        Estamos com o Processo Seletivo aberto, até dia 17/03, para alunos da FT e da FCA!
+        Estamos com o Processo Seletivo aberto, até dia 08/03, para alunos da FT e da FCA!
         `,
         site: `http://asaslimeira.com/`,
         facebook: `https://www.facebook.com/Asas.limeira`,
@@ -366,7 +366,6 @@ let orgsList = [
         Quer conhecer mais a Liestag? Entre em contato pelas nossas redes`,
         instagram: `https://www.instagram.com/liestag`,
         linkedin: `https://www.linkedin.com/company/liestag/`,
-        discord: `https://discord.gg/etA5384XN3`,
         fca:true,
         ft:true,
     },
@@ -686,7 +685,7 @@ let orgsList = [
     },
     {
         title: `CETEL - Comissão de Engenharia de Telecomunicações`,
-        type: OrgType.ca,
+        type: OrgType.comissao,
         image: `cetel.png`,
         about: `A CETEL é a Comissão de Engenharia de Telecomunicações, organizada por alunos para os alunos.
         <br><br>
@@ -701,6 +700,36 @@ let orgsList = [
         disabled: false,
         fca:false,
         ft:true,
+    },
+    {
+        title: `Cens.Jr`,
+        type: OrgType.ej,
+        image: `censjr.jpeg`,
+        about: `Há uma década no mercado, a Cens.Jr é a empresa júnior de Nutrição e Esporte a qual oferece a oportunidade única de entrar em contato com o mundo empresarial ainda durante a graduação. Através de nossos projetos nutricionais e esportivos, os membros da nossa empresa júnior atuam em equipe para aplicar os conhecimentos adquiridos em sala de aula em situações reais, enfrentando desafios do mercado, proporcionando a chance de interagir diretamente com clientes, desenvolvendo habilidades de comunicação, negociação e gestão de projetos. 
+        <br><br>
+        Somos uma associação civil sem fins lucrativos onde todo o lucro gerado pela Cens.Jr é reinvestido em atividades educacionais, viagens para eventos, capacitações e aprimoramentos dos nossos membros, garantindo uma experiência enriquecedora e impactante como nenhuma outra na graduação.
+        <br><br>
+        Junte-se a família Cens e faça parte dessa jornada rumo ao sucesso profissional e pessoal.`,
+        site: `https://www.censjr.com`,
+        facebook: `https://www.facebook.com/censempresajr`,
+        email: `mailto:cens.jr@gmail.com`,
+        instagram: `https://www.instagram.com/cens.unicamp`,
+        linkedin: `https://www.linkedin.com/company/censjr`,
+        whatsapp: `https://wa.me/+5512988885830`,
+        disabled: false,
+        fca:true,
+        ft:false,
+    },
+    {
+        title: `LINHUT`,
+        type: OrgType.liga,
+        image: `lihnut.jpeg`,
+        about: `A LIHNUT (Liga Humanizada de Nutrição Aplicada a Doenças Crônicas Não Transmissíveis), criada em 2019, tem como objetivo desenvolver profissionais responsáveis, humanizados e capacitados em doenças crônicas não transmissíveis, por meio de aulas, discussões e atividades realizadas com seus membros. Além disso, a liga tem o propósito de promover autonomia alimentar à população a partir de atividades que impactem o público externo.`,
+        email: `mailto:linhut.unicamp`,
+        instagram: `https://www.instagram.com/lihnut.unicamp`,
+        disabled: false,
+        fca:true,
+        ft:false,
     },
     {
         title: `Teste`,
