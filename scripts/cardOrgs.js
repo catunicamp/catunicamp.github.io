@@ -222,7 +222,7 @@ let orgsList = [
         title: `Coletivo Indígena`,
         type: OrgType.coletivo,
         university: `FT | FCA`,
-        image: `colindigena.jpg`,
+        image: `colindigena.jpeg`,
         about: `Coletivo formado por estudantes indígenas da UNICAMP (FT e FCA) com o objetivo de
         receber, alocar nas repúblicas, ajudar na adaptação dos calouros indígenas e auxiliar
         nas demandas da vida desses estudantes`,
@@ -757,6 +757,31 @@ let orgsList = [
         instagram: `https://www.instagram.com/eixopublico`,
         linkedin: `https://www.linkedin.com/company/eixopublico/about/`,
         whatsapp: `https://wa.me/11945201551`,
+        disabled: false,
+        fca:true,
+        ft:false,
+    },
+    {
+        title: `AAASE`,
+        type: OrgType.atletica,
+        image: `aaase.png`,
+        about: `A AAASE é uma entidade sem fins lucrativos que realiza ações sociais e proporciona momentos de integração aos alunos de Ciências do Esporte e de Nutrição da Unicamp por meio da promoção da prática esportiva, do fomento à participação dos alunos em campeonatos esportivos e do oferecimento de festas universitárias. Com a Missão de impactar de forma construtiva o cotidiano da comunidade interna e externa ao campus FCA, principalmente com ações sociais por meio dos nossos valores: respeito, representatividade, igualdade, empatia, generosidade e compromisso.`,
+        instagram: `https://www.instagram.com/instaaase/`,
+        disabled: false,
+        fca:true,
+        ft:false,
+    },
+    {
+        title: `AAAKI`,
+        type: OrgType.atletica,
+        image: `aaaki.png`,
+        about: `A Associação Acadêmica Atlética Kamal Ismail (AAAKI) existe a fim de proporcionar vivências esportivas, integrações e experiências universitárias únicas para os alunos das Engenharias de Produção e Manufatura. 
+        <br><br>
+        Localizada em Limeira, a Faculdade de Ciências Aplicadas (FCA) da UNICAMP é a casa do Formigueiro, que carrega com muita GARRA suas origens tanto em ações sociais e eventos como em campeonatos. Atualmente, a AAAKI é a maior campeã das Copas Bixos (disputadas pelos ingressantes anualmente) e também tem o orgulho de disputar com seus atletas a Copa Inter atléticas (CIA, em MG), Copa Engenharia da UNICAMP e Jogos Universitários de Limeira (JULI).
+        <br><br>
+        Levamos o nome do fundador dos nossos cursos Kamal Ismail e carregamos nossa bandeira vermelha e amarela para todos os lugares que possamos ganhar mais um título. Somos um formigueiro inteiro honrando e vencendo aonde quer que passemos. `,
+        facebook: `https://www.instagram.com/atleticakamal?igsh=dzh3aWpuMHpmNQ==`,
+        instagram: `https://www.instagram.com/atleticakamal?igsh=dzh3aWpuMHpmNQ==`,
         disabled: false,
         fca:true,
         ft:false,
